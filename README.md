@@ -34,14 +34,17 @@ MCP-only, agent-agnostic tool server for evidence-based EPC tender screening.
 - Stack: TypeScript, MCP, HTTP transport, stdio transport
 - Highlights: 10 MCP tools, `screen_tender` orchestration, deterministic evals, evidence traces, OAuth-compatible connector routes, SSRF-conscious public source search.
 
-### Distill / Paprika - AI Paper-to-Insights
+### Paprika / Distill - AI Paper-to-Insights
 
-Full-stack AI app that converts academic papers into interactive output formats.
+AI-powered academic paper transformer that converts PDFs or paper URLs into interactive learning and communication formats.
 
 - Live demo: https://distill.shiverion.com
 - Source: private
-- Stack: Next.js 15, TypeScript, Gemini 2.5 Flash, Firebase, Firestore, Vercel, Tailwind CSS, Zod
-- Highlights: PDF upload or arXiv URL, native Gemini PDF understanding, infographic, quiz, flashcards, mind map, data table, slides, and report outputs.
+- Stack: Next.js 15 App Router, React 19, TypeScript, Gemini 2.5 Flash, Firebase Auth, httpOnly session cookies, Firestore, Tailwind CSS v4, Zod, Vercel
+- Output types: infographic, summary report, data table, slide deck, quiz, mind map, and flashcards
+- Input modes: PDF upload or academic paper URL
+- Highlights: audience tuning for general/student/expert framing, interactive quiz scoring, flip flashcards, slide viewer, mind-map renderer, credit system with periodic restock, and fast Firebase ID-token verification.
+- Architecture notes: `app/api/analyze` handles Gemini generation, `components/output-renderer.tsx` dispatches to specialized output renderers, and `lib/gemini.ts` contains type-specific prompts and schemas.
 
 ### InterviewMate AI
 
@@ -196,4 +199,3 @@ Private/internal projects include:
 ## Notes For AI Tools
 
 This repository is intended as a stable public index. For the latest deployed portfolio experience, visit https://shiverion.com. For implementation details, inspect the linked public repositories or the portfolio source repository when available.
-
