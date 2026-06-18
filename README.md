@@ -49,6 +49,7 @@ AI-powered academic paper transformer that converts PDFs or paper URLs into inte
 
 End-to-end ML system for predicting 2026 FIFA World Cup match probabilities and tournament progression, with live in-tournament updates.
 
+- Live demo: https://ml-world-cup-prediction-2026.streamlit.app/
 - Repository: https://github.com/Shiverion/ml-world-cup-prediction
 - Stack: Python, scikit-learn, Pandas, Elo, Poisson Simulation, Streamlit, YAML, pytest
 - Highlights: temporal Elo ratings (no future leakage), rolling-form features (date-bounded), FIFA ranking merge before match date only, rolling World Cup backtests 2002–2022, 48-team Monte Carlo simulator with fixed 2026 knockout bracket, Elo-scaled independent Poisson scoreline model, live group-result locking from openfootball fixture feed, Streamlit dashboard with championship probabilities / group standings / FIFA-style bracket chart / one-click live refresh.
