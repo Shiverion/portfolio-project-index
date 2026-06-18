@@ -43,8 +43,16 @@ AI-powered academic paper transformer that converts PDFs or paper URLs into inte
 - Stack: Next.js 15 App Router, React 19, TypeScript, Gemini 2.5 Flash, Firebase Auth, httpOnly session cookies, Firestore, Tailwind CSS v4, Zod, Vercel
 - Output types: infographic, summary report, data table, slide deck, quiz, mind map, and flashcards
 - Input modes: PDF upload or academic paper URL
-- Highlights: audience tuning for general/student/expert framing, interactive quiz scoring, flip flashcards, slide viewer, mind-map renderer, credit system with periodic restock, and fast Firebase ID-token verification.
-- Architecture notes: `app/api/analyze` handles Gemini generation, `components/output-renderer.tsx` dispatches to specialized output renderers, and `lib/gemini.ts` contains type-specific prompts and schemas.
+- Highlights: audience tuning, interactive quiz scoring, flip flashcards, slide viewer, mind-map renderer, credit system with periodic restock, fast Firebase ID-token verification.
+
+### World Cup 2026 Prediction Engine
+
+Time-aware machine learning system for predicting international football match probabilities and simulating the 2026 FIFA World Cup.
+
+- Source: private
+- Stack: Python, scikit-learn, Pandas, Elo, Monte Carlo, Streamlit, YAML, pytest
+- Highlights: temporal Elo ratings with no future leakage, rolling-form features (date-bounded), FIFA ranking merge before match date only, World Cup rolling backtests on prior tournaments, 48-team Monte Carlo tournament simulator (configurable bracket from YAML), pre-tournament and live operating modes, Streamlit dashboard for match predictor and probabilities.
+- Data sources: martj42/international_results (results through 2026-06-16), Dato-Futbol/fifa-ranking (rankings through 2024-09-19).
 
 ### InterviewMate AI
 
@@ -190,6 +198,7 @@ Private/internal projects include:
 
 - Financial Wellness Agent
 - Distill / Paprika
+- World Cup 2026 Prediction Engine
 - PRD Generator
 - Baseline Pro
 - Case Vault
