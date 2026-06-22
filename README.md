@@ -13,6 +13,7 @@ LinkedIn: https://www.linkedin.com/in/izzulhaq-iqbal/
 - MCP-compatible tool servers
 - AI product engineering with Gemini, OpenAI, Firebase, Vercel, GCP, and Cloud Run
 - Data science, benchmarking, model evaluation, and applied analytics
+- LLM fine-tuning and execution-based evaluation
 - Corporate AI enablement and technical mentoring
 
 ## Featured Projects
@@ -158,6 +159,15 @@ Interpretable deep learning project for classifying galaxy morphology.
 - Repository: https://github.com/Shiverion/galaxy-morphology-classification
 - Stack: Python, PyTorch, ResNet18, Grad-CAM, Integrated Gradients
 - Highlights: 99.07% accuracy, ROC-AUC 0.9995, model interpretability for scientific imaging.
+
+### Text2SQL — Fine-tuning a ≤3B LLM for SQL Generation
+
+End-to-end pipeline for fine-tuning a small open-source LLM to convert plain-English questions into executable SQL, running entirely on free compute.
+
+- Repository: https://github.com/Shiverion/text2sql-finetuning
+- HuggingFace adapter: https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora
+- Stack: Python, QLoRA, Unsloth, TRL, HuggingFace Transformers, BIRD, Qwen2.5-Coder-1.5B, SQLite, Google Colab / Kaggle T4
+- Highlights: lifted valid-SQL rate from 40% → 73.5% on 200 BIRD-dev questions; execution accuracy 14.0% → 15.5%; completion-only loss masking with SFTTrainer; schema-grounded prompt construction; execution-based evaluation against real SQLite databases; 3 ablation experiments (baseline, 1.5B+BIRD, 0.5B, BIRD+SynSQL cross-domain); full written report.
 
 ### IBM Applied Data Science Capstone
 
