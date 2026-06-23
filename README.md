@@ -52,10 +52,10 @@ End-to-end ML pipeline for predicting 2026 FIFA World Cup match probabilities an
 
 - Live demo: https://ml-world-cup-prediction-2026.streamlit.app/
 - Repository: https://github.com/Shiverion/ml-world-cup-prediction
-- Stack: Python, scikit-learn, Pandas, Elo, Poisson Simulation, Streamlit, PyYAML, pytest
-- Highlights: temporal Elo ratings (no future leakage), rolling-form features (date-bounded), FIFA ranking merge before match date only, rolling World Cup backtests 2002–2022, 9-model comparison grid (logistic, random forest, histogram GBM), calibration diagnostics (ECE/MCE, sharpness, reliability reports), ablation study, nested model-selection backtest, 48-team Monte Carlo simulator with fixed 2026 knockout bracket, Elo-scaled independent Poisson scoreline model with simulation confidence intervals, live group-result locking from openfootball fixture feed, versioned forecast registry (model card, config, git commit, output snapshots), Streamlit dashboard with championship probabilities / group standings / FIFA-style bracket chart / one-click live refresh.
+- Stack: Python, scikit-learn, Pandas, Elo, Streamlit, PyYAML, pytest
+- Highlights: temporal Elo ratings (no future leakage), rolling-form features (date-bounded), FIFA ranking merge before match date only, rolling World Cup backtests 2002–2022, 9-model comparison grid (logistic, random forest, histogram GBM), calibration diagnostics (ECE/MCE, sharpness, reliability reports), ablation study, nested model-selection backtest, 48-team ML-driven Monte Carlo simulator (primary ML model drives match probabilities; Elo-Poisson available as baseline), official FIFA Annex C for all 495 possible best-third-place bracket assignments, simulation profiles (dev/local/publication), live group-result locking from openfootball fixture feed, versioned forecast registry (model card, config, git commit, output snapshots), Streamlit dashboard with championship probabilities / group standings / bracket chart with zoom controls / one-click live refresh.
 - Selected model: logistic_plain_c0_5 — ~56% average accuracy (best single window ~64%), best average log loss across rolling World Cup windows.
-- Data sources: martj42/international_results (through 2026-06-16), Dato-Futbol/fifa-ranking (through 2024-09-19), openfootball/worldcup.json (2026 fixtures and live results).
+- Data sources: martj42/international_results (through 2026-06-22), Dato-Futbol/fifa-ranking (historical) + official FIFA ranking API (2026-06-11 snapshot), openfootball/worldcup.json (2026 fixtures and live results).
 
 ### InterviewMate AI
 
