@@ -23,7 +23,7 @@ LinkedIn: https://www.linkedin.com/in/izzulhaq-iqbal/
 Research project comparing Long Context, Dense RAG, and Multi-Stage RAG on Indonesian Constitutional Court verdicts.
 
 - Repository: https://github.com/Shiverion/VerdictBench-LCvsRAG
-- Paper: https://openreview.net/forum?id=1Z6OUt0T6Q
+- Paper: https://openreview.net/forum?id=46hzq45LPE
 - Stack: Python, Gemini 2.5 Flash, GPT-4o Mini, FAISS, BM25, IndoBERT, RAG
 - Highlights: 50 verdicts, 300 human-reviewed QA pairs, LC and Dense RAG statistically tied on Phase 2 gold-evidence faithfulness, Dense RAG 16-25x cheaper, Long Context long-verdict non-response analysis, Multi-Stage RAG component ablation.
 
