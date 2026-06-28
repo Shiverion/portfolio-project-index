@@ -16,6 +16,13 @@ LinkedIn: https://www.linkedin.com/in/izzulhaq-iqbal/
 - LLM fine-tuning and execution-based evaluation
 - Corporate AI enablement and technical mentoring
 
+## Education & Certifications
+
+- Purwadhika Digital Technology School: Job Connector Bootcamp Data Science & Machine Learning, Certificate ID 202410007379, held Oct 2024-Jun 2025.
+  - Graduation certificate: https://drive.google.com/file/d/1Yie9JBHgJW-GtT3tiqN7rqomwRVEwRQ8/view?usp=drivesdk
+  - Academic transcript: https://drive.google.com/file/d/1ahPMSb9yy_EDIZb8coTv2Es6WGYNhJKb/view?usp=drivesdk
+  - Internship certificate: https://drive.google.com/file/d/18pCuKvl7z2TOeRqT3zJWPY0fPeY2xzVN/view?usp=drivesdk
+- Portfolio certifications: 43 professional credentials, including IBM AI Engineering Professional Certificate, IBM Data Science Professional Certificate, Google Cybersecurity Professional Certificate, AWS Generative AI with Large Language Models, Anthropic Claude/MCP coursework, and applied IBM/Coursera data science credentials.
 ## Featured Projects
 
 ### VerdictBench: Benchmarking Long Context and Retrieval-Augmented Generation on Indonesian Constitutional Court Verdicts
