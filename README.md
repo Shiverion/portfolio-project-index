@@ -23,6 +23,17 @@ LinkedIn: https://www.linkedin.com/in/izzulhaq-iqbal/
   - Academic transcript: https://drive.google.com/file/d/1ahPMSb9yy_EDIZb8coTv2Es6WGYNhJKb/view?usp=drivesdk
   - Internship certificate: https://drive.google.com/file/d/18pCuKvl7z2TOeRqT3zJWPY0fPeY2xzVN/view?usp=drivesdk
 - Portfolio certifications: 43 professional credentials, including IBM AI Engineering Professional Certificate, IBM Data Science Professional Certificate, Google Cybersecurity Professional Certificate, AWS Generative AI with Large Language Models, Anthropic Claude/MCP coursework, and applied IBM/Coursera data science credentials.
+
+## Latest Data Analysis
+
+Three football projects show the same analytical discipline at different scales: define a comparison population, preserve the time boundary, quantify uncertainty, and stop where the evidence stops.
+
+| Project | Question | Evidence-led answer | Links |
+| --- | --- | --- | --- |
+| **World Cup 2026 Prediction Engine** | Can match probabilities remain useful when propagated through a new 48-team format? | The selected model matched Elo-Poisson at 56.0% accuracy while improving log loss (0.973 vs 0.985) and Brier score (0.573 vs 0.581); the value is better uncertainty, not a bigger accuracy headline. | [Repo](https://github.com/Shiverion/ml-world-cup-prediction) |
+| **England vs France: Third-Place Match Analysis** | Was the 6–4 third-place match simply a low-effort exhibition? | Ten goals came from 5.33 xG, yet high-intensity running and pressure increased while collective control deteriorated. The defensible reading is **high effort, weak coordination**, not evidence of pre-arrangement. | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) · [Notebook](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/jupyter-notebook/england_france_2026_third_place_analysis_v2.ipynb) |
+| **Argentina Comeback Analysis** | How rare was Argentina's late 3–2 comeback against Egypt? | World Cup history contained 0 wins from 278 comparable two-goal deficits at 70 minutes; selected club data found 2/703 (0.28%) at 70 minutes and 1/733 (0.14%) at 75, without turning rarity into a claim of officiating bias. | [Latest branch](https://github.com/Shiverion/argentina-comeback-analysis/tree/codex/comeback-penalty-sequences) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/results/analysis_report.md) · [Notebook](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/output/jupyter-notebook/argentina_egypt_comeback_analysis.ipynb) · [English article](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/article/argentina-comeback-golden-child-en-updated-v2.pdf) |
+
 ## Featured Projects
 
 ### VerdictBench: Benchmarking Long Context and Retrieval-Augmented Generation on Indonesian Constitutional Court Verdicts
@@ -55,14 +66,13 @@ AI-powered academic paper transformer that converts PDFs or paper URLs into inte
 
 ### World Cup 2026 Prediction Engine
 
-End-to-end ML pipeline for predicting 2026 FIFA World Cup match probabilities and tournament progression, with live in-tournament updates.
+Probability-first forecasting pipeline for three-way international match outcomes and the official 48-team tournament structure.
 
-- Live demo: https://ml-world-cup-prediction-2026.streamlit.app/
 - Repository: https://github.com/Shiverion/ml-world-cup-prediction
-- Stack: Python, scikit-learn, Pandas, Elo, Streamlit, PyYAML, pytest
-- Highlights: temporal Elo ratings (no future leakage), rolling-form features (date-bounded), FIFA ranking merge before match date only, rolling World Cup backtests 2002–2022, 9-model comparison grid (logistic, random forest, histogram GBM), calibration diagnostics (ECE/MCE, sharpness, reliability reports), ablation study, nested model-selection backtest, 48-team ML-driven Monte Carlo simulator (primary ML model drives match probabilities; Elo-Poisson available as baseline), official FIFA Annex C for all 495 possible best-third-place bracket assignments, simulation profiles (dev/local/publication), live group-result locking from openfootball fixture feed, versioned forecast registry (model card, config, git commit, output snapshots), Streamlit dashboard with championship probabilities / group standings / bracket chart with zoom controls / one-click live refresh.
-- Selected model: logistic_plain_c0_5 — ~56% average accuracy (best single window ~64%), best average log loss across rolling World Cup windows.
-- Data sources: martj42/international_results (through 2026-06-22), Dato-Futbol/fifa-ranking (historical) + official FIFA ranking API (2026-06-11 snapshot), openfootball/worldcup.json (2026 fixtures and live results).
+- Public demo: none currently; the hosted Streamlit URL requires sign-in.
+- Stack: Python, scikit-learn, Pandas, NumPy, Elo, Monte Carlo simulation, Streamlit, PyYAML, pytest
+- Evaluation: 384 chronologically held-out World Cup matches; selected model 56.0% accuracy, 0.973 log loss, and 0.573 Brier score versus Elo-Poisson at 56.0%, 0.985, and 0.581.
+- Highlights: leakage-safe temporal features, calibration diagnostics, all 495 official Annex C third-place mappings, deterministic simulation profiles, live-result locking, versioned forecast registry, and historically backtested live-update weights.
 
 ### InterviewMate AI
 
