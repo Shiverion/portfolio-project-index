@@ -1,238 +1,184 @@
-# Muhammad Iqbal Hilmy Izzulhaq - Project Index
+<picture>
+  <source media="(max-width: 700px)" srcset="./assets/shiverion-signal-mobile.svg">
+  <img src="./assets/shiverion-signal-desktop.svg" width="100%" alt="Muhammad Iqbal Hilmy Izzulhaq — building evidence-first agentic AI, retrieval systems, and applied machine learning products">
+</picture>
 
-Public project index for recruiters, collaborators, and AI tools that need a concise, fetchable overview of Muhammad Iqbal Hilmy Izzulhaq's technical work.
+<h1 align="center">AI systems that can show their work.</h1>
 
-Portfolio: https://shiverion.com  
-GitHub: https://github.com/Shiverion  
-LinkedIn: https://www.linkedin.com/in/izzulhaq-iqbal/
+<p align="center">
+  I build agentic AI, trustworthy retrieval pipelines, and production AI products —<br>
+  from benchmark design to the interface people actually use.
+</p>
 
-## Focus Areas
+<p align="center">
+  <a href="https://shiverion.com/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-SHIVERION.COM-0B1220?style=for-the-badge&amp;logo=safari&amp;logoColor=67E8F9"></a>
+  <a href="https://github.com/Shiverion"><img alt="GitHub" src="https://img.shields.io/badge/GITHUB-SHIVERION-0B1220?style=for-the-badge&amp;logo=github&amp;logoColor=F8FAFC"></a>
+  <a href="https://www.linkedin.com/in/izzulhaq-iqbal/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-0B1220?style=for-the-badge&amp;logo=linkedin&amp;logoColor=60A5FA"></a>
+  <a href="https://medium.com/@miqbal.izzulhaq"><img alt="Medium" src="https://img.shields.io/badge/MEDIUM-READ-0B1220?style=for-the-badge&amp;logo=medium&amp;logoColor=F8FAFC"></a>
+  <a href="https://openreview.net/forum?id=46hzq45LPE"><img alt="OpenReview paper" src="https://img.shields.io/badge/OPENREVIEW-PAPER-0B1220?style=for-the-badge&amp;logo=openreview&amp;logoColor=A78BFA"></a>
+</p>
 
-- Agentic AI and multi-agent systems
-- Retrieval-Augmented Generation and long-context evaluation
-- MCP-compatible tool servers
-- AI product engineering with Gemini, OpenAI, Firebase, Vercel, GCP, and Cloud Run
-- Data science, benchmarking, model evaluation, and applied analytics
-- LLM fine-tuning and execution-based evaluation
-- Corporate AI enablement and technical mentoring
+<p align="center">
+  <samp>
+    <a href="#hello-im-iqbal">ABOUT</a> ·
+    <a href="#signature-systems">WORK</a> ·
+    <a href="#technical-range">STACK</a> ·
+    <a href="#project-constellation">ALL PROJECTS</a> ·
+    <a href="#connect">CONNECT</a>
+  </samp>
+</p>
 
-## Education & Certifications
+---
 
-- Purwadhika Digital Technology School: Job Connector Bootcamp Data Science & Machine Learning, Certificate ID 202410007379, held Oct 2024-Jun 2025.
-  - Graduation certificate: https://drive.google.com/file/d/1Yie9JBHgJW-GtT3tiqN7rqomwRVEwRQ8/view?usp=drivesdk
-  - Academic transcript: https://drive.google.com/file/d/1ahPMSb9yy_EDIZb8coTv2Es6WGYNhJKb/view?usp=drivesdk
-  - Internship certificate: https://drive.google.com/file/d/18pCuKvl7z2TOeRqT3zJWPY0fPeY2xzVN/view?usp=drivesdk
-- Portfolio certifications: 43 professional credentials, including IBM AI Engineering Professional Certificate, IBM Data Science Professional Certificate, Google Cybersecurity Professional Certificate, AWS Generative AI with Large Language Models, Anthropic Claude/MCP coursework, and applied IBM/Coursera data science credentials.
+## Hello, I'm Iqbal.
 
-## Latest Data Analysis
+I'm **Muhammad Iqbal Hilmy Izzulhaq** (`@Shiverion`), an AI engineer and data scientist working where **agents, retrieval, evaluation, and product engineering** meet.
 
-Three football projects show the same analytical discipline at different scales: define a comparison population, preserve the time boundary, quantify uncertainty, and stop where the evidence stops.
+My projects move between Indonesian legal-document research, MCP tool servers, real-time voice interfaces, fine-tuned language models, and leakage-safe prediction pipelines. The common thread is simple: make the system useful, make its boundaries visible, and measure whether it actually works.
+
+> **Working principle:** AI should know its limits, show its evidence, and earn its place in a real workflow.
+
+| Outcome | Measured signal |
+| ---: | --- |
+| **300** | Human-reviewed legal QA pairs in VerdictBench |
+| **16–25×** | Dense RAG cost advantage observed in the benchmark |
+| **40% → 73.5%** | Valid SQL improvement after QLoRA fine-tuning |
+| **98% ↓ · 100× ↑** | Memory reduction and peak speedup in dataframe tests |
+
+## What I build
+
+| Layer | What I work on | What makes it credible |
+| --- | --- | --- |
+| **Agentic systems** | MCP servers, tool orchestration, multi-agent workflows | Explicit data boundaries, evidence traces, deterministic evals |
+| **Retrieval & LLM evaluation** | RAG, long context, hybrid search, fine-tuning | Human-reviewed benchmarks, ablations, cost and failure analysis |
+| **Production AI products** | Voice, document intelligence, auth, quotas, persistence | Deployed workflows with real product surfaces and operational constraints |
+| **Applied ML** | Forecasting, classification, model interpretation | Leakage-safe backtests, calibration, model cards, interpretable outputs |
+
+## Signature systems
+
+### 01 / [VerdictBench](https://github.com/Shiverion/VerdictBench-LCvsRAG)
+
+`RESEARCH` `RETRIEVAL` `EVALUATION`
+
+Long Context, Dense RAG, and Multi-Stage RAG tested on Indonesian Constitutional Court verdicts.
+
+> **Signal:** 50 verdicts, 300 reviewed QA pairs, and Dense RAG statistically tied with Long Context on gold-evidence faithfulness while costing 16–25× less.
+
+`Python` `FAISS` `BM25` `IndoBERT` · [Repository ↗](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Paper ↗](https://openreview.net/forum?id=46hzq45LPE)
+
+### 02 / [EPC Tender Screening MCP](https://github.com/Shiverion/epc-tender-screening-mcp-showcase)
+
+`AGENT TOOLING` `MCP` `EVIDENCE`
+
+An agent-agnostic tool server for reviewable EPC tender bid/no-bid screening.
+
+> **Signal:** 10 MCP tools, orchestration through `screen_tender`, evidence traces, deterministic evals, and SSRF-conscious public-source search.
+
+`TypeScript` `MCP` `Zod` `HTTP + stdio` · [Repository ↗](https://github.com/Shiverion/epc-tender-screening-mcp-showcase)
+
+### 03 / [World Cup 2026 Engine](https://github.com/Shiverion/ml-world-cup-prediction)
+
+`APPLIED ML` `FORECASTING` `SIMULATION`
+
+A time-aware match and tournament forecasting pipeline built for the 48-team World Cup format.
+
+> **Signal:** 56.0% accuracy, 0.973 log loss, and 0.573 Brier score across 384 chronologically held-out World Cup matches; the completed 2026 snapshot produced 44/72 correct group-match calls, 26/32 correct knockout teams, and 24/31 evaluated knockout advances; all 495 Annex C bracket assignments are implemented.
+
+`Python` `scikit-learn` `Elo` `Monte Carlo` · [Repository ↗](https://github.com/Shiverion/ml-world-cup-prediction)
+
+### 04 / [Distill / Paprika](https://distill.shiverion.com)
+
+`AI PRODUCT` `DOCUMENT INTELLIGENCE` `LEARNING`
+
+A production paper-to-insights product that turns a PDF or paper URL into formats people can study, present, and share.
+
+> **Signal:** seven output types, PDF or URL input, audience tuning, interactive learning modes, Firebase auth, and credit controls.
+
+`Next.js` `TypeScript` `Gemini` `Firebase` · [Live demo ↗](https://distill.shiverion.com) · **Source:** private
+
+## Latest data analysis
+
+Three football projects show the same analytical discipline at different scales: define a comparison population, protect the time boundary, quantify uncertainty, and stop where the evidence stops.
 
 | Project | Question | Evidence-led answer | Links |
 | --- | --- | --- | --- |
-| **World Cup 2026 Prediction Engine** | Can match probabilities remain useful when propagated through a new 48-team format? | The selected model matched Elo-Poisson at 56.0% accuracy while improving log loss (0.973 vs 0.985) and Brier score (0.573 vs 0.581); the value is better uncertainty, not a bigger accuracy headline. | [Repo](https://github.com/Shiverion/ml-world-cup-prediction) |
-| **England vs France: Third-Place Match Analysis** | Was the 6–4 third-place match simply a low-effort exhibition? | Ten goals came from 5.33 xG, yet high-intensity running and pressure increased while collective control deteriorated. The defensible reading is **high effort, weak coordination**, not evidence of pre-arrangement. | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) · [Notebook](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/jupyter-notebook/england_france_2026_third_place_analysis_v2.ipynb) |
-| **Argentina Comeback Analysis** | How rare was Argentina's late 3–2 comeback against Egypt? | World Cup history contained 0 wins from 278 comparable two-goal deficits at 70 minutes; selected club data found 2/703 (0.28%) at 70 minutes and 1/733 (0.14%) at 75, without turning rarity into a claim of officiating bias. | [Latest branch](https://github.com/Shiverion/argentina-comeback-analysis/tree/codex/comeback-penalty-sequences) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/results/analysis_report.md) · [Notebook](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/output/jupyter-notebook/argentina_egypt_comeback_analysis.ipynb) · [English article](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/article/argentina-comeback-golden-child-en-updated-v2.pdf) |
-
-## Featured Projects
-
-### VerdictBench: Benchmarking Long Context and Retrieval-Augmented Generation on Indonesian Constitutional Court Verdicts
-
-Research project comparing Long Context, Dense RAG, and Multi-Stage RAG on Indonesian Constitutional Court verdicts.
-
-- Repository: https://github.com/Shiverion/VerdictBench-LCvsRAG
-- Paper: https://openreview.net/forum?id=46hzq45LPE
-- Stack: Python, Gemini 2.5 Flash, GPT-4o Mini, FAISS, BM25, IndoBERT, RAG
-- Highlights: 50 verdicts, 300 human-reviewed QA pairs, LC and Dense RAG statistically tied on Phase 2 gold-evidence faithfulness, Dense RAG 16-25x cheaper, Long Context long-verdict non-response analysis, Multi-Stage RAG component ablation.
-
-### EPC Tender Screening MCP
-
-MCP-only, agent-agnostic tool server for evidence-based EPC tender screening.
-
-- Repository: https://github.com/Shiverion/epc-tender-screening-mcp-showcase
-- Stack: TypeScript, MCP, HTTP transport, stdio transport
-- Highlights: 10 MCP tools, `screen_tender` orchestration, deterministic evals, evidence traces, OAuth-compatible connector routes, SSRF-conscious public source search.
-
-### Paprika / Distill - AI Paper-to-Insights
-
-AI-powered academic paper transformer that converts PDFs or paper URLs into interactive learning and communication formats.
-
-- Live demo: https://distill.shiverion.com
-- Source: private
-- Stack: Next.js 15 App Router, React 19, TypeScript, Gemini 2.5 Flash, Firebase Auth, httpOnly session cookies, Firestore, Tailwind CSS v4, Zod, Vercel
-- Output types: infographic, summary report, data table, slide deck, quiz, mind map, and flashcards
-- Input modes: PDF upload or academic paper URL
-- Highlights: audience tuning, interactive quiz scoring, flip flashcards, slide viewer, mind-map renderer, credit system with periodic restock, fast Firebase ID-token verification.
-
-### World Cup 2026 Prediction Engine
-
-Probability-first forecasting pipeline for three-way international match outcomes and the official 48-team tournament structure.
-
-- Repository: https://github.com/Shiverion/ml-world-cup-prediction
-- Public demo: none currently; the hosted Streamlit URL requires sign-in.
-- Stack: Python, scikit-learn, Pandas, NumPy, Elo, Monte Carlo simulation, Streamlit, PyYAML, pytest
-- Evaluation: 384 chronologically held-out World Cup matches; selected model 56.0% accuracy, 0.973 log loss, and 0.573 Brier score versus Elo-Poisson at 56.0%, 0.985, and 0.581.
-- Highlights: leakage-safe temporal features, calibration diagnostics, all 495 official Annex C third-place mappings, deterministic simulation profiles, live-result locking, versioned forecast registry, and historically backtested live-update weights.
-
-### InterviewMate AI
-
-AI-powered virtual interviewer and candidate evaluation platform.
-
-- Live demo: https://interviewmate-ai.shiverion.com/
-- Repository: https://github.com/Shiverion/interviewmate-ai
-- Stack: TypeScript, Firebase, OpenAI Realtime API, WebRTC
-- Highlights: real-time voice interviews, resume personalization, recruiter dashboard, automated candidate evaluation.
-
-### Financial Wellness Agent
-
-AI-powered personal finance assistant for transaction logging, budgeting, receipt scanning, savings goals, market analysis, and portfolio insights.
-
-- Live demo: https://fwa.shiverion.com/
-- Source: private
-- Stack: Next.js, FastAPI, Gemini, Firestore, Clerk, Redis, yfinance, Cloud Run
-- Highlights: multi-agent architecture, natural-language transaction parsing, receipt understanding, portfolio tracking, market-aware recommendations.
-
-### Case Vault
-
-AI-generated noir detective visual novel with procedural cases, interrogation, evidence, and episodic progression.
-
-- Live demo: https://casevault.shiverion.com/
-- Source: private
-- Stack: JavaScript, Gemini, image generation, RAG-style truth file, Vite
-- Highlights: dynamic case generation, suspect personalities, evidence consistency, episode progression, Google AI Hackathon project.
-
-### PRD Generator
-
-AI-powered product requirements document generator with rich editing and professional PDF export.
-
-- Live demo: https://prdgenerator.shiverion.com/
-- Source: private
-- Stack: Next.js, TypeScript, Gemini AI, React PDF, Tailwind CSS, shadcn/ui, Zustand
-- Highlights: structured PRD generation, BYOK API key model, Markdown editing, client-side PDF export.
-
-### FocusForge
-
-Tauri desktop app for focused learning with AI-powered session review, webcam distraction detection, and gamified productivity.
-
-- Repository: https://github.com/Shiverion/focusforge
-- Stack: Tauri 2.0, React, TypeScript, TensorFlow.js, Gemini AI, SQLite, Zustand
-- Highlights: Poisson sessions, face/eye-gaze distraction tracking, AI Timer Assistant, Socratic learning review, badges, productivity heatmap.
-
-### Universal Commerce Protocol Agent
-
-AI shopping agent implementing the Universal Commerce Protocol across federated commerce backends.
-
-- Repository: https://github.com/Shiverion/ucp-agent
-- Stack: Python, FastAPI, React, Gemini 2.5 Flash, UCP
-- Highlights: federated search across independent shops, real-time inventory checks, conversational checkout.
-
-### ProcureMind
-
-AI procurement assistant for RFQ parsing, supplier quote comparison, and professional response drafting.
-
-- Live demo: https://procuremind.streamlit.app/
-- Repository: https://github.com/Shiverion/ProcureMind
-- Stack: Streamlit, Python, Supabase, Gemini 2.5 Flash
-- Highlights: raw RFQ email parser, semantic search over historical product data, AI email drafting, comparison dashboard.
-
-### Meeting Summarizer
-
-Full-stack meeting transcription and summarization app.
-
-- Live demo: https://meeting-summarizer.shiverion.com/
-- Repository: https://github.com/Shiverion/meeting-summarizer
-- Stack: React, FastAPI, OpenAI Whisper, GPT-4o-mini, GCP, Docker
-- Highlights: audio transcription, adaptive summaries, PDF service, Cloud Run deployment, CI/CD.
-
-### Baseline Pro
-
-Mobile-first tennis coaching and booking platform for Coach ARUM.
-
-- Live demo: https://baseline-pro.vercel.app
-- Source: private
-- Stack: Next.js, Firebase, Google SSO, Firestore, Google Calendar integration
-- Highlights: class booking flow, interactive heatmap schedule, birthday vouchers, skill badges, tutorial library, admin tools, Indonesian localization.
-
-### Pandas vs Polars vs DuckDB Benchmark
-
-Benchmark comparing dataframe engines on 13.1 million rows of SUSENAS 2024 data.
-
-- Repository: https://github.com/Shiverion/dataframe-engine-comparison
-- Stack: Python, Pandas, Polars, DuckDB, Jupyter
-- Highlights: 98% memory reduction and up to 100x speedup using modern dataframe libraries.
-
-### Cybersecurity Analyzer Agent
-
-AI-assisted vulnerability analysis tool for Python code.
-
-- Repository: https://github.com/Shiverion/cybersecurity-agent
-- Stack: Python, OpenAI Agents, Semgrep, Azure, GCP
-- Highlights: static analysis via Semgrep, conversational vulnerability explanation, serverless container deployment.
-
-### Galaxy Morphology Classification
-
-Interpretable deep learning project for classifying galaxy morphology.
-
-- Repository: https://github.com/Shiverion/galaxy-morphology-classification
-- Stack: Python, PyTorch, ResNet18, Grad-CAM, Integrated Gradients
-- Highlights: 99.07% accuracy, ROC-AUC 0.9995, model interpretability for scientific imaging.
-
-### Text2SQL — Fine-tuning a ≤3B LLM for SQL Generation
-
-End-to-end pipeline for fine-tuning a small open-source LLM to convert plain-English questions into executable SQL, running entirely on free compute.
-
-- Repository: https://github.com/Shiverion/text2sql-finetuning
-- HuggingFace adapter: https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora
-- Stack: Python, QLoRA, Unsloth, TRL, HuggingFace Transformers, BIRD, Qwen2.5-Coder-1.5B, SQLite, Google Colab / Kaggle T4
-- Highlights: lifted valid-SQL rate from 40% → 73.5% on 200 BIRD-dev questions; execution accuracy 14.0% → 15.5%; completion-only loss masking with SFTTrainer; schema-grounded prompt construction; execution-based evaluation against real SQLite databases; 3 ablation experiments (baseline, 1.5B+BIRD, 0.5B, BIRD+SynSQL cross-domain); full written report.
-
-### IBM Applied Data Science Capstone
-
-End-to-end data science project predicting Falcon 9 first-stage landing success.
-
-- Repository: https://github.com/Shiverion/IBM-Applied-Data-Science-Capstone
-- Stack: Python, SQL, Dash, machine learning, visualization
-- Highlights: web scraping, wrangling, EDA, dashboarding, classification model comparison.
-
-### Career Digital Twin
-
-RAG chatbot representing professional background and project experience.
-
-- Live demo: https://huggingface.co/spaces/Shiverion/career_conversations
-- Repository: https://github.com/Shiverion/Resume-chatbot-with-RAG
-- Stack: Python, RAG, Hugging Face Spaces
-- Highlights: resume-grounded career assistant for recruiters and portfolio visitors.
-
-### Telco Churn Analysis
-
-Machine learning churn prediction project optimized for recall and cost reduction.
-
-- Repository: https://github.com/Shiverion/Telco-Churn-Analysis
-- Stack: Python, Scikit-learn, XGBoost, Pandas
-- Highlights: 93.7% recall, reduced high-risk churn losses, cost-sensitive model evaluation.
-
-### Airbnb Data Analysis
-
-Bangkok Airbnb pricing analysis focused on revenue optimization.
-
-- Repository: https://github.com/Shiverion/AirBnB-Data-Analysis
-- Stack: Python, Pandas, data visualization
-- Highlights: peak-month pricing strategy, listing analysis, estimated revenue uplift recommendations.
-
-## Private Or Internal Work
-
-Some production, client, company, or hackathon repositories remain private. Public summaries are included here where the work is already represented on the portfolio site, but source links are intentionally omitted.
-
-Private/internal projects include:
-
-- Financial Wellness Agent
-- Distill / Paprika
-- PRD Generator
-- Baseline Pro
-- Case Vault
-- PT Internasional Teknik Nusantara website and internal AI systems
-- ML-Enhanced Honey Powder Optimization
-
-## Notes For AI Tools
-
-This repository is intended as a stable public index. For the latest deployed portfolio experience, visit https://shiverion.com. For implementation details, inspect the linked public repositories or the portfolio source repository when available.
+| **World Cup 2026 Prediction Engine** | Can match probabilities remain useful when propagated through a new 48-team format? | Across 384 held-out matches, the model matched Elo-Poisson at 56.0% accuracy while improving log loss and Brier score by roughly 1.3%. In the completed 2026 snapshot it made 44/72 group-match calls, identified 26/32 knockout teams, and correctly called 24/31 evaluated knockout advances. | [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Portfolio](https://shiverion.com/projects/world-cup-prediction) |
+| **England vs France: Third-Place Match Analysis** | Was the 6–4 bronze final simply a low-effort exhibition? | Ten goals came from 5.33 xG, yet high-intensity running and pressure increased while collective control deteriorated. The defensible reading is **high effort, weak coordination**. | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) · [Notebook](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/jupyter-notebook/england_france_2026_third_place_analysis_v2.ipynb) · [Portfolio](https://shiverion.com/projects/england-france-third-place-analysis) |
+| **Argentina Comeback Analysis** | How rare was Argentina's late 3–2 comeback against Egypt? | World Cup history contained 0 wins from 278 comparable two-goal deficits at 70 minutes; selected club data places the event near 0.14–0.28%, without turning rarity into a claim of officiating bias. | [Latest branch](https://github.com/Shiverion/argentina-comeback-analysis/tree/codex/comeback-penalty-sequences) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/results/analysis_report.md) · [Notebook](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/output/jupyter-notebook/argentina_egypt_comeback_analysis.ipynb) · [Portfolio](https://shiverion.com/projects/argentina-comeback-analysis) |
+
+## Technical range
+
+| Domain | Tools and technologies |
+| --- | --- |
+| **Agents & automation** | `MCP` · `OpenAI Agents SDK` · `LangGraph` · `CrewAI` · `n8n` |
+| **LLMs & retrieval** | `Gemini` · `OpenAI` · `Hugging Face` · `FAISS` · `BM25` · `IndoBERT` · `QLoRA` |
+| **Product engineering** | `Next.js` · `React` · `FastAPI` · `Firebase / Firestore` · `WebRTC` · `Tauri` |
+| **ML & data** | `PyTorch` · `scikit-learn` · `Pandas` · `Polars` · `DuckDB` · `SQL` |
+| **Delivery** | `GCP` · `Cloud Run` · `Vercel` · `Docker` · `CI/CD` |
+
+## Project constellation
+
+<details>
+<summary><strong>Explore the complete project index</strong> — public repositories, live products, research, and selected private work</summary>
+
+### Research, evaluation & applied ML
+
+| Project | Signal | Links |
+| --- | --- | --- |
+| **VerdictBench** | Long Context vs Dense and Multi-Stage RAG on Indonesian legal decisions; 50 verdicts and 300 reviewed QA pairs. | [Repo](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Paper](https://openreview.net/forum?id=46hzq45LPE) |
+| **World Cup 2026 Prediction Engine** | 384-match chronological backtest, 44/72 current group-match calls, 24/31 evaluated knockout advances, proper-score evaluation, model registry, and 48-team Monte Carlo simulation. | [Repo](https://github.com/Shiverion/ml-world-cup-prediction) |
+| **England vs France: Third-Place Match Analysis** | Multi-source holdout analysis separates high physical effort from weak collective defensive control. | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) |
+| **Argentina Comeback Analysis** | Historical rarity, leakage-safe modeling, and counterfactual sensitivity with explicit evidence gates. | [Latest branch](https://github.com/Shiverion/argentina-comeback-analysis/tree/codex/comeback-penalty-sequences) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/codex/comeback-penalty-sequences/results/analysis_report.md) |
+| **Text2SQL Fine-tuning** | End-to-end QLoRA and execution-based evaluation for a ≤3B SQL-generation model. | [Repo](https://github.com/Shiverion/text2sql-finetuning) · [Adapter](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora) |
+| **Pandas vs Polars vs DuckDB** | Reproducible dataframe-engine benchmark on 13.1M SUSENAS 2024 rows. | [Repo](https://github.com/Shiverion/dataframe-engine-comparison) |
+| **Galaxy Morphology Classification** | ResNet18 with Grad-CAM and Integrated Gradients for interpretable scientific imaging. | [Repo](https://github.com/Shiverion/galaxy-morphology-classification) |
+| **IBM Applied Data Science Capstone** | Falcon 9 landing prediction from data collection through dashboarding and model comparison. | [Repo](https://github.com/Shiverion/IBM-Applied-Data-Science-Capstone) |
+| **Telco Churn Analysis** | Cost-aware churn modeling optimized for recall, reaching **93.7% recall**. | [Repo](https://github.com/Shiverion/Telco-Churn-Analysis) |
+| **Airbnb Data Analysis** | Bangkok listing and pricing analysis aimed at revenue optimization. | [Repo](https://github.com/Shiverion/AirBnB-Data-Analysis) |
+
+### Agents & production AI
+
+| Project | Signal | Links |
+| --- | --- | --- |
+| **EPC Tender Screening MCP** | Evidence-based tender screening through 10 MCP tools and reviewable orchestration. | [Repo](https://github.com/Shiverion/epc-tender-screening-mcp-showcase) |
+| **Distill / Paprika** | Academic papers transformed into seven interactive learning and communication formats. | [Live](https://distill.shiverion.com) · Source private |
+| **InterviewMate AI** | Real-time voice interviewing and automated candidate evaluation over OpenAI Realtime and WebRTC. | [Live](https://interviewmate-ai.shiverion.com/) · [Repo](https://github.com/Shiverion/interviewmate-ai) |
+| **Financial Wellness Agent** | Multi-agent budgeting, receipt understanding, goals, market analysis, and portfolio insights. | [Case study](https://shiverion.com/projects/financial-wellness-agent) · Source private |
+| **Case Vault** | Procedural noir cases with generated suspects, interrogation, evidence consistency, and episodic progression. | [Live](https://casevault.shiverion.com/) · Source private |
+| **PRD Generator** | Structured product-requirements generation, Markdown editing, and professional client-side PDF export. | [Live](https://prdgenerator.shiverion.com/) · Source private |
+| **Universal Commerce Protocol Agent** | Federated product discovery, inventory checks, and conversational checkout across UCP backends. | [Repo](https://github.com/Shiverion/ucp-agent) |
+| **ProcureMind** | RFQ parsing, semantic search over historical products, quote comparison, and supplier-response drafting. | [Live](https://procuremind.streamlit.app/) · [Repo](https://github.com/Shiverion/ProcureMind) |
+| **Meeting Summarizer** | Audio transcription, adaptive summaries, PDF output, and containerized Cloud Run delivery. | [Repo](https://github.com/Shiverion/meeting-summarizer) |
+| **Cybersecurity Analyzer Agent** | Semgrep-backed Python vulnerability analysis with conversational explanations. | [Repo](https://github.com/Shiverion/cybersecurity-agent) |
+| **Career Digital Twin** | Resume-grounded RAG assistant for exploring professional background and project experience. | [Live](https://huggingface.co/spaces/Shiverion/career_conversations) · [Repo](https://github.com/Shiverion/Resume-chatbot-with-RAG) |
+
+### Human-centered products
+
+| Project | Signal | Links |
+| --- | --- | --- |
+| **FocusForge** | Tauri focus environment with webcam distraction signals, Socratic review, badges, and local persistence. | [Repo](https://github.com/Shiverion/focusforge) |
+| **Baseline Pro** | Mobile-first tennis coaching, booking, schedule heatmaps, vouchers, learning content, and Indonesian localization. | [Live](https://baseline-pro.vercel.app) · Source private |
+
+### Additional private or internal work
+
+Some production, client, company, and experimental repositories intentionally remain private. This includes the **PT Internasional Teknik Nusantara website and internal AI systems** and **ML-Enhanced Honey Powder Optimization**, alongside private-source products identified above.
+
+</details>
+
+## Connect
+
+The fastest way to understand my work is to try the products, read the benchmark, or inspect the repositories:
+
+- **Portfolio:** [shiverion.com](https://shiverion.com/)
+- **GitHub:** [github.com/Shiverion](https://github.com/Shiverion)
+- **LinkedIn:** [linkedin.com/in/izzulhaq-iqbal](https://www.linkedin.com/in/izzulhaq-iqbal/)
+- **Writing:** [medium.com/@miqbal.izzulhaq](https://medium.com/@miqbal.izzulhaq)
+
+This repository remains the stable, machine-readable index of my work. Private-source projects are labeled explicitly; public repositories are linked.
+
+---
+
+<p align="center">
+  <sub>“Mystery gives life meaning. Agency gives life motion.”</sub><br>
+  <samp>BUILD // MEASURE // LEARN</samp>
+</p>
