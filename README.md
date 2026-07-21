@@ -15,7 +15,7 @@
   <a href="https://github.com/Shiverion"><img alt="GitHub" src="https://img.shields.io/badge/GITHUB-SHIVERION-0B1220?style=for-the-badge&amp;logo=github&amp;logoColor=F8FAFC"></a>
   <a href="https://www.linkedin.com/in/izzulhaq-iqbal/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-0B1220?style=for-the-badge&amp;logo=linkedin&amp;logoColor=60A5FA"></a>
   <a href="https://medium.com/@miqbal.izzulhaq"><img alt="Medium" src="https://img.shields.io/badge/MEDIUM-READ-0B1220?style=for-the-badge&amp;logo=medium&amp;logoColor=F8FAFC"></a>
-  <a href="https://openreview.net/forum?id=1Z6OUt0T6Q"><img alt="OpenReview preprint" src="https://img.shields.io/badge/OPENREVIEW-PREPRINT-0B1220?style=for-the-badge&amp;logo=openreview&amp;logoColor=A78BFA"></a>
+  <a href="https://openreview.net/forum?id=46hzq45LPE"><img alt="OpenReview paper" src="https://img.shields.io/badge/OPENREVIEW-PAPER-0B1220?style=for-the-badge&amp;logo=openreview&amp;logoColor=A78BFA"></a>
 </p>
 
 <p align="center">
@@ -44,7 +44,7 @@ My work ranges from Indonesian legal-document research and MCP tool servers to r
 | Measured outcome | Where it comes from |
 | ---: | --- |
 | **300 human-reviewed QA pairs** | [VerdictBench](https://github.com/Shiverion/VerdictBench-LCvsRAG) |
-| **16–25× lower cost** for Dense RAG in the evaluated setup | [VerdictBench preprint](https://openreview.net/forum?id=1Z6OUt0T6Q) |
+| **16–25× lower cost** for Dense RAG in the evaluated setup | [VerdictBench paper](https://openreview.net/forum?id=46hzq45LPE) |
 | **40% → 73.5% valid SQL** after QLoRA fine-tuning | [Text2SQL fine-tuning](https://github.com/Shiverion/text2sql-finetuning) |
 | **98% less memory · up to 100× faster** under benchmarked workloads | [Dataframe benchmark case study](https://shiverion.com/projects/dataframe-benchmark) |
 | **384-match chronological backtest** across six World Cup windows | [World Cup 2026 engine](https://github.com/Shiverion/ml-world-cup-prediction) |
@@ -60,7 +60,7 @@ These projects lead because their artifacts expose either the judgment behind an
 Long Context, Dense RAG, and Multi-Stage RAG evaluated on Indonesian Constitutional Court verdicts. The work contributes a 50-verdict, 300-question human-reviewed benchmark and reports quality, cost, and failure behavior rather than treating retrieval architecture as a foregone conclusion.
 
 **Evidence:** no statistically significant faithfulness difference was observed between Long Context and Dense RAG on gold evidence in the reported comparison; Dense RAG cost 16–25× less in that setup.<br>
-**Public timeline:** 2026-03-19 → 2026-06-27 · [Repository ↗](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Preprint ↗](https://openreview.net/forum?id=1Z6OUt0T6Q)
+**Public timeline:** 2026-03-19 → 2026-06-27 · [Repository ↗](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Paper ↗](https://openreview.net/forum?id=46hzq45LPE)
 
 ### 02 / [EPC Tender Screening MCP](https://github.com/Shiverion/epc-tender-screening-mcp-showcase)
 
@@ -120,7 +120,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
-| **VerdictBench** | **4 · Extensive** | 2026-03-19 → 2026-06-27 | 300 human-reviewed legal QA pairs; comparative evaluation; cost and failure analysis | [Repo](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Preprint](https://openreview.net/forum?id=1Z6OUt0T6Q) |
+| **VerdictBench** | **4 · Extensive** | 2026-03-19 → 2026-06-27 | 300 human-reviewed legal QA pairs; comparative evaluation; cost and failure analysis | [Repo](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Paper](https://openreview.net/forum?id=46hzq45LPE) |
 | **Text2SQL Fine-tuning** | **3 · Substantial** | 2026-06-21 → 2026-06-24 | QLoRA, three ablations, and execution-based evaluation on 200 BIRD-dev questions | [Repo](https://github.com/Shiverion/text2sql-finetuning) · [Adapter](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora) |
 | **Pandas vs Polars vs DuckDB** | **3 · Substantial** | 2026-02-13 → 2026-02-13 | Reproducible performance and memory benchmark over 13.1M SUSENAS rows | [Repo](https://github.com/Shiverion/dataframe-engine-comparison) · [Case study](https://shiverion.com/projects/dataframe-benchmark) |
 
