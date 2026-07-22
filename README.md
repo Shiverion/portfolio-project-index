@@ -78,7 +78,7 @@ An agent-agnostic MCP server for reviewable EPC tender bid/no-bid screening. Ten
 A probability-first forecasting pipeline with time-aware features, rolling backtests, proper scoring rules, and Monte Carlo propagation through the official 48-team format.
 
 **Evidence:** 384 chronologically held-out matches · 56.0% accuracy · 0.973 log loss · all 495 bracket assignments implemented.<br>
-**Public timeline:** 2026-06-18 → 2026-07-20 · [Repository ↗](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study ↗](https://shiverion.com/projects/world-cup-prediction)
+**Public timeline:** 2026-06-18 → 2026-07-20 · [Live demo ↗](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repository ↗](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study ↗](https://shiverion.com/projects/world-cup-prediction)
 
 ### 04 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
 
@@ -128,7 +128,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
-| **World Cup 2026 Prediction Engine** | **4 · Extensive** | 2026-06-18 → 2026-07-20 | Leakage-safe features, rolling backtests, proper scores, model registry, and full 48-team simulation | [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study](https://shiverion.com/projects/world-cup-prediction) |
+| **World Cup 2026 Prediction Engine** | **4 · Extensive** | 2026-06-18 → 2026-07-20 | Leakage-safe features, rolling backtests, proper scores, model registry, and full 48-team simulation | [Live demo](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study](https://shiverion.com/projects/world-cup-prediction) |
 | **England vs France: Third-Place Match Analysis** | **4 · Extensive** | 2026-07-19 → 2026-07-20 | Multi-source comparison tests a claim, separates effort from control, and bounds the conclusion | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) |
 | **Argentina Comeback Analysis** | **4 · Extensive** | 2026-07-10 → 2026-07-20 | Historical comparison population, leakage-safe modeling, counterfactual sensitivity, and evidence gates | [Snapshot](https://github.com/Shiverion/argentina-comeback-analysis/tree/c434dea2edc3fbf7ab124f5d88ed217f5396df8d) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/c434dea2edc3fbf7ab124f5d88ed217f5396df8d/results/analysis_report.md) |
 | **Honey Powder ML Optimisation** | **4 · Extensive** | — | Held-out GPR/GBR comparison against RSM, explicit XGBoost failure at n=30, Bayesian optimisation, and 1,149 Pareto-optimal formulations | [Case study](https://shiverion.com/projects/honey-powder-ml-optimisation) · source private |
