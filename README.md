@@ -101,7 +101,7 @@ An end-to-end QLoRA pipeline for a ≤3B SQL model, evaluated by parsing and exe
 
 ### 06 / [Distill / Paprika](https://distill.shiverion.com)
 
-`PRODUCTION AI` · `LEVEL 3 — SUBSTANTIAL` · `LIVE + PUBLIC CASE STUDY · PRIVATE SOURCE`
+`PRODUCTION AI` · `LEVEL 2 — FOCUSED` · `LIVE + PUBLIC CASE STUDY · PRIVATE SOURCE`
 
 A paper-to-insights product that turns a PDF or paper URL into seven study and communication formats. The product surface includes audience controls, interactive learning modes, authentication, persistence, and credit enforcement.
 
@@ -120,7 +120,7 @@ Projects are grouped by capability and ordered by **demonstrated depth**. Within
 | **Level 1 · Exploratory** | Foundations and experiments | Coursework, reproduction, common reference patterns, or small reference-led prototypes that demonstrate a specific skill |
 | **Not scored** | Inspectable context is insufficient | Listed for completeness when public artifacts do not expose enough decisions or results for a fair comparison |
 
-The levels describe what the available artifacts demonstrate. They do **not** guess authorship, count lines of code, or claim whether AI assistance was used. Reproducibility is a strength; the distinction is whether a project also makes its independent reasoning, constraints, and validation visible. Private-source projects are scored only from inspectable live products or public case studies—not claims about inaccessible code. A case study supports a score only when it names concrete decisions, constraints, or measured results; a live product supports visible workflow and integration claims, not invisible implementation claims.
+The levels describe what the available artifacts demonstrate. They do **not** guess authorship, count lines of code, or claim whether AI assistance was used. Original evidence, domain judgment, human review, reproducible evaluation, integration depth, and meaningful impact raise a project's position. Generic API wrappers, standard course implementations, and unsupported outcome claims are intentionally ranked lower, even when the interface is polished. Private-source projects are scored only from inspectable live products or public case studies—not claims about inaccessible code.
 
 **Timeline convention:** for public repositories, `start → update` means GitHub repository creation date → latest repository push date in UTC. Repository creation is a public-history proxy, not a claim about the first private day of work. Private-source dates are left blank rather than invented.
 
@@ -142,8 +142,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | **World Cup 2026 Prediction Engine** | **4 · Extensive** | 2026-06-18 → 2026-07-20 | Leakage-safe features, rolling backtests, proper scores, model registry, and full 48-team simulation | [Live demo](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study](https://shiverion.com/projects/world-cup-prediction) |
 | **England vs France: Third-Place Match Analysis** | **4 · Extensive** | 2026-07-19 → 2026-07-20 | Multi-source comparison tests a claim, separates effort from control, and bounds the conclusion | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) |
 | **Argentina Comeback Analysis** | **4 · Extensive** | 2026-07-10 → 2026-07-20 | Historical comparison population, leakage-safe modeling, counterfactual sensitivity, and evidence gates | [Snapshot](https://github.com/Shiverion/argentina-comeback-analysis/tree/c434dea2edc3fbf7ab124f5d88ed217f5396df8d) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/c434dea2edc3fbf7ab124f5d88ed217f5396df8d/results/analysis_report.md) |
-| **Honey Powder ML Optimisation** | **4 · Extensive** | — | Held-out GPR/GBR comparison against RSM, explicit XGBoost failure at n=30, Bayesian optimisation, and 1,149 Pareto-optimal formulations | [Case study](https://shiverion.com/projects/honey-powder-ml-optimisation) · source private |
-| **Galaxy Morphology Classification** | **2 · Focused** | 2025-12-20 → 2025-12-20 | ResNet18 classification with Grad-CAM and Integrated Gradients for scientific interpretability | [Repo](https://github.com/Shiverion/galaxy-morphology-classification) |
+| **Galaxy Morphology Classification** | **3 · Substantial** | 2025-12-20 → 2025-12-20 | ResNet18 classification with Grad-CAM and Integrated Gradients for scientific interpretability | [Repo](https://github.com/Shiverion/galaxy-morphology-classification) |
 | **Telco Churn Analysis** | **2 · Focused** | 2025-02-13 → 2025-02-13 | Cost-aware model selection prioritizing false-negative risk; 93.7% recall reported | [Repo](https://github.com/Shiverion/Telco-Churn-Analysis) |
 | **Airbnb Data Analysis** | **2 · Focused** | 2025-01-13 → 2025-01-14 | Bangkok listing analysis translated into pricing and revenue recommendations | [Repo](https://github.com/Shiverion/AirBnB-Data-Analysis) |
 
@@ -153,29 +152,29 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | --- | --- | ---: | --- | --- |
 | **EPC Tender Screening MCP** | **4 · Extensive** | 2026-06-08 → 2026-06-08 | Ten domain tools, reviewable orchestration, deterministic evals, evidence traces, and SSRF boundaries | [Repo](https://github.com/Shiverion/epc-tender-screening-mcp-showcase) |
 | **Universal Commerce Protocol Agent** | **3 · Substantial** | 2026-01-15 → 2026-01-15 | Federated discovery, live inventory checks, and conversational checkout across three backends | [Repo](https://github.com/Shiverion/ucp-agent) |
-| **ProcureMind** | **3 · Substantial** | 2026-01-20 → 2026-01-30 | Multi-stage RFQ parsing, product search, quote comparison, and response drafting | [Repo](https://github.com/Shiverion/ProcureMind) · [Live](https://procuremind.streamlit.app/) |
+| **ProcureMind** | **2 · Focused** | 2026-01-20 → 2026-01-30 | Multi-stage RFQ parsing, product search, quote comparison, and response drafting | [Repo](https://github.com/Shiverion/ProcureMind) · [Live](https://procuremind.streamlit.app/) |
 | **Cybersecurity Analyzer Agent** | **2 · Focused** | 2025-11-26 → 2025-12-03 | Semgrep-backed Python analysis with an agent explanation layer and container deployment | [Repo](https://github.com/Shiverion/cybersecurity-agent) · [Case study](https://shiverion.com/projects/cybersecurity-analyzer) |
-| **Trader Agent Simulator** | **2 · Focused** | — | Trade/rebalance agent loop, researcher agent, async multi-server handling, and multi-provider support | [Case study](https://shiverion.com/projects/trader-agent-simulator) · source private |
-| **Indonesian Parliament Activity Chatbot** | **2 · Focused** | — | SQL-grounded natural-language access to member activity and agenda data | [Case study](https://shiverion.com/projects/parliament-chatbot) · source private |
+| **Trader Agent Simulator** | **1 · Exploratory** | — | Trade/rebalance agent loop, researcher agent, async multi-server handling, and multi-provider support | [Case study](https://shiverion.com/projects/trader-agent-simulator) · source private |
+| **Indonesian Parliament Activity Chatbot** | **1 · Exploratory** | — | SQL-grounded natural-language access to member activity and agenda data | [Case study](https://shiverion.com/projects/parliament-chatbot) · source private |
 
 ### Production AI products
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **InterviewMate AI** | **3 · Substantial** | 2026-02-28 → 2026-06-24 | Real-time WebRTC interviewing, resume context, recruiter workflow, and human-reviewable candidate scoring | [Repo](https://github.com/Shiverion/interviewmate-ai) · [Live](https://interviewmate-ai.shiverion.com/) |
-| **Distill / Paprika** | **3 · Substantial** | — | Seven structured outputs, native paper input, interactive study modes, auth, persistence, and quotas | [Live](https://distill.shiverion.com) · [Case study](https://shiverion.com/projects/paprika) · source private |
+| **Distill / Paprika** | **2 · Focused** | — | Seven structured outputs, native paper input, interactive study modes, auth, persistence, and quotas | [Live](https://distill.shiverion.com) · [Case study](https://shiverion.com/projects/paprika) · source private |
 | **Case Vault** | **3 · Substantial** | — | Procedural case state, evidence consistency, suspect interrogation, and episodic progression | [Live](https://casevault.shiverion.com/) · [Case study](https://shiverion.com/projects/case-vault) · source private |
 | **Financial Wellness Agent** | **3 · Substantial** | — | Public case study documents a six-agent workflow, receipts, budgets, goals, market data, queues, and cost controls | [Case study](https://shiverion.com/projects/financial-wellness-agent) · source private |
 | **PRD Generator** | **2 · Focused** | — | Structured generation, Markdown editing, BYOK handling, and client-side AST-to-PDF export | [Live](https://prdgenerator.shiverion.com/) · [Case study](https://shiverion.com/projects/prd-generator) · source private |
-| **Meeting Summarizer** | **2 · Focused** | 2025-12-07 → 2025-12-07 | Transcription-to-summary pipeline with auth, PDF output, Cloud Run, Docker, and CI/CD | [Repo](https://github.com/Shiverion/meeting-summarizer) · [Case study](https://shiverion.com/projects/meeting-summarizer) |
-| **Career Digital Twin** | **2 · Focused** | 2025-08-05 → 2025-08-07 | Resume-grounded RAG assistant deployed as an interactive professional profile | [Repo](https://github.com/Shiverion/Resume-chatbot-with-RAG) · [Live](https://huggingface.co/spaces/Shiverion/career_conversations) |
+| **Meeting Summarizer** | **1 · Exploratory** | 2025-12-07 → 2025-12-07 | Transcription-to-summary pipeline with auth, PDF output, Cloud Run, Docker, and CI/CD | [Repo](https://github.com/Shiverion/meeting-summarizer) · [Case study](https://shiverion.com/projects/meeting-summarizer) |
+| **Career Digital Twin** | **1 · Exploratory** | 2025-08-05 → 2025-08-07 | Resume-grounded RAG assistant deployed as an interactive professional profile | [Repo](https://github.com/Shiverion/Resume-chatbot-with-RAG) · [Live](https://huggingface.co/spaces/Shiverion/career_conversations) |
 
 ### Human-centered software
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **FocusForge** | **3 · Substantial** | 2025-12-22 → 2026-02-09 | Tauri desktop app combining distraction signals, Socratic review, achievements, analytics, and local state | [Repo](https://github.com/Shiverion/focusforge) · [Live](https://focusforge.shiverion.com/) · [Case study](https://shiverion.com/projects/focusforge) |
-| **Baseline Pro** | **3 · Substantial** | — | Localized coaching and booking product with schedule heatmaps, vouchers, content, badges, and admin tools | [Live](https://baseline-pro.vercel.app) · [Case study](https://shiverion.com/projects/baseline-pro) · source private |
+| **Baseline Pro** | **2 · Focused** | — | Localized coaching and booking product with schedule heatmaps, vouchers, content, badges, and admin tools | [Live](https://baseline-pro.vercel.app) · [Case study](https://shiverion.com/projects/baseline-pro) · source private |
 | **Badminton Court Reservation System** | **2 · Focused** | 2024-11-20 → 2024-11-20 | Complete Python workflow covering scheduling conflicts, operating-hour validation, payment states, roles, and feedback | [Repo](https://github.com/Shiverion/Badminton-Court-Reservation-System) |
 
 <details>
