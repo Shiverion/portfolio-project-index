@@ -29,7 +29,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-07-22</sub></p>
+<p align="center"><sub>Index reviewed 2026-07-29</sub></p>
 
 ---
 
@@ -37,7 +37,7 @@
 
 I'm **Muhammad Iqbal Hilmy Izzulhaq** (`@Shiverion`), an AI engineer and data scientist working where **agents, retrieval, evaluation, and product engineering** meet.
 
-My work ranges from Indonesian legal-document research and MCP tool servers to real-time voice products, fine-tuned language models, and leakage-safe forecasting. The common thread is simple: define the decision clearly, make the system's boundaries visible, and measure whether it works.
+My work ranges from Indonesian legal-document research and bioinformatics evidence triage to MCP tool servers, real-time voice products, fine-tuned language models, and leakage-safe forecasting. The common thread is simple: define the decision clearly, make the system's boundaries visible, and measure whether it works.
 
 > **Working principle:** AI should know its limits, show its evidence, and earn its place in a real workflow.
 
@@ -45,6 +45,7 @@ My work ranges from Indonesian legal-document research and MCP tool servers to r
 | ---: | --- |
 | **300 human-reviewed QA pairs** | [VerdictBench](https://github.com/Shiverion/VerdictBench-LCvsRAG) |
 | **16–25× lower cost** for Dense RAG in the evaluated setup | [VerdictBench paper](https://openreview.net/forum?id=46hzq45LPE) |
+| **33,983 rows audited · 224 cross-condition genes** | [T-cell Evidence Workbench](https://github.com/Shiverion/t-cell-evidence-workbench) |
 | **40% → 73.5% valid SQL** after QLoRA fine-tuning | [Text2SQL fine-tuning](https://github.com/Shiverion/text2sql-finetuning) |
 | **98% less memory · up to 100× faster** under benchmarked workloads | [Dataframe benchmark case study](https://shiverion.com/projects/dataframe-benchmark) |
 | **384-match chronological backtest** across six World Cup windows | [World Cup 2026 engine](https://github.com/Shiverion/ml-world-cup-prediction) |
@@ -71,7 +72,16 @@ An agent-agnostic MCP server for reviewable EPC tender bid/no-bid screening. Ten
 **Evidence:** 10 MCP tools · orchestrated `screen_tender` workflow · deterministic evals · evidence-linked outputs.<br>
 **Public timeline:** 2026-06-08 → 2026-06-08 · [Repository ↗](https://github.com/Shiverion/epc-tender-screening-mcp-showcase)
 
-### 03 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
+### 03 / [T-cell Evidence Workbench](https://github.com/Shiverion/t-cell-evidence-workbench)
+
+`BIOINFORMATICS & EVIDENCE TRIAGE` · `LEVEL 4 — EXTENSIVE` · `LIVE + PUBLIC REPO`
+
+An analyst workbench for registered source-QC triage of primary-human CD4+ T-cell CRISPRi Perturb-seq results. A deterministic pipeline keeps every eligibility gate and ranking component inspectable, while the web interface connects candidate exploration, gene dossiers, evidence graphs, robustness scenarios, and finding cards to artifact provenance.
+
+**Evidence:** 33,983 perturbation-condition rows audited · six registered source-QC gates · 1,652 eligible rows · 224 genes passing all gates across three conditions.<br>
+**Public timeline:** 2026-07-29 → 2026-07-29 · [Live workbench ↗](https://tcell-evidence.shiverion.com/) · [Repository ↗](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study ↗](https://shiverion.com/projects/t-cell-evidence-workbench)
+
+### 04 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
 
 `APPLIED ML` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
 
@@ -80,7 +90,7 @@ A probability-first forecasting pipeline with time-aware features, rolling backt
 **Evidence:** 384 chronologically held-out matches · 56.0% accuracy · 0.973 log loss · all 495 bracket assignments implemented.<br>
 **Public timeline:** 2026-06-18 → 2026-07-20 · [Live demo ↗](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repository ↗](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study ↗](https://shiverion.com/projects/world-cup-prediction)
 
-### 04 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
+### 05 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
 
 `LLM EVALUATION` · `LEVEL 3 — SUBSTANTIAL` · `PUBLIC REPO + MODEL`
 
@@ -89,7 +99,7 @@ An end-to-end QLoRA pipeline for a ≤3B SQL model, evaluated by parsing and exe
 **Evidence:** valid SQL improved from 40% to 73.5%; execution accuracy moved from 14.0% to 15.5% across 200 BIRD-dev questions.<br>
 **Public timeline:** 2026-06-21 → 2026-06-24 · [Repository ↗](https://github.com/Shiverion/text2sql-finetuning) · [Adapter ↗](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora)
 
-### 05 / [Distill / Paprika](https://distill.shiverion.com)
+### 06 / [Distill / Paprika](https://distill.shiverion.com)
 
 `PRODUCTION AI` · `LEVEL 3 — SUBSTANTIAL` · `LIVE + PUBLIC CASE STUDY · PRIVATE SOURCE`
 
@@ -121,6 +131,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **VerdictBench** | **4 · Extensive** | 2026-03-19 → 2026-06-27 | 300 human-reviewed legal QA pairs; comparative evaluation; cost and failure analysis | [Repo](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Paper](https://openreview.net/forum?id=46hzq45LPE) |
+| **T-cell Evidence Workbench** | **4 · Extensive** | 2026-07-29 → 2026-07-29 | Registered source-QC contract, 33,983 audited rows, decomposable ranking, evidence graphs, robustness analysis, and artifact provenance | [Live](https://tcell-evidence.shiverion.com/) · [Repo](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study](https://shiverion.com/projects/t-cell-evidence-workbench) |
 | **Text2SQL Fine-tuning** | **3 · Substantial** | 2026-06-21 → 2026-06-24 | QLoRA, three ablations, and execution-based evaluation on 200 BIRD-dev questions | [Repo](https://github.com/Shiverion/text2sql-finetuning) · [Adapter](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora) |
 | **Pandas vs Polars vs DuckDB** | **3 · Substantial** | 2026-02-13 → 2026-02-13 | Reproducible performance and memory benchmark over 13.1M SUSENAS rows | [Repo](https://github.com/Shiverion/dataframe-engine-comparison) · [Case study](https://shiverion.com/projects/dataframe-benchmark) |
 
@@ -198,7 +209,7 @@ These projects remain part of the record. They appear after the deeper work beca
 | **Agents & tool systems** | MCP · OpenAI Agents SDK · LangGraph · CrewAI · n8n | Tool boundaries, orchestration, deterministic evals, multi-agent workflows |
 | **Retrieval & LLM evaluation** | Gemini · OpenAI · Hugging Face · FAISS · BM25 · IndoBERT · QLoRA | Human review, execution tests, ablations, cost and failure analysis |
 | **Product engineering** | Next.js · React · FastAPI · Firebase / Firestore · WebRTC · Tauri | Auth, quotas, persistence, real-time media, local and cloud delivery |
-| **ML & data** | PyTorch · scikit-learn · Pandas · Polars · DuckDB · SQL | Chronological backtests, proper scores, calibration, interpretability, resource benchmarks |
+| **ML & data** | PyTorch · scikit-learn · Pandas · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, interpretability, resource benchmarks |
 | **Delivery** | GCP · Cloud Run · Vercel · Docker · CI/CD | Public demos, container delivery, serverless products, automated checks |
 
 ## Connect
