@@ -29,7 +29,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-07-29</sub></p>
+<p align="center"><sub>Index reviewed 2026-08-11</sub></p>
 
 ---
 
@@ -49,6 +49,7 @@ My work ranges from Indonesian legal-document research and bioinformatics eviden
 | **40% → 73.5% valid SQL** after QLoRA fine-tuning | [Text2SQL fine-tuning](https://github.com/Shiverion/text2sql-finetuning) |
 | **98% less memory · up to 100× faster** under benchmarked workloads | [Dataframe benchmark case study](https://shiverion.com/projects/dataframe-benchmark) |
 | **384-match chronological backtest** across six World Cup windows | [World Cup 2026 engine](https://github.com/Shiverion/ml-world-cup-prediction) |
+| **Caught an eval bug hiding 45% of true FD002 error** | [AeroRUL](https://github.com/Shiverion/AeroRUL) |
 
 ## Selected work
 
@@ -81,7 +82,16 @@ An analyst workbench for registered source-QC triage of primary-human CD4+ T-cel
 **Evidence:** 33,983 perturbation-condition rows audited · six registered source-QC gates · 1,652 eligible rows · 224 genes passing all gates across three conditions.<br>
 **Public timeline:** 2026-07-29 → 2026-07-29 · [Video overview ↗](https://drive.google.com/file/d/1c9wvq_Cp6V_RtU8KsLnrK1jHoRi_1T8e/view) · [Live workbench ↗](https://tcell-evidence.shiverion.com/) · [Repository ↗](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study ↗](https://shiverion.com/projects/t-cell-evidence-workbench)
 
-### 04 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
+### 04 / [AeroRUL](https://github.com/Shiverion/AeroRUL)
+
+`APPLIED ML / MLOPS` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
+
+A full-pipeline turbofan-engine Remaining Useful Life system: condition-aware feature engineering, a five-model comparison (XGBoost, LSTM, TCN, Transformer, Weibull AFT survival) with a per-subset champion, split conformal prediction intervals, and a FastAPI + React dashboard shipped either backend-free or against a live API. A real evaluation bug — scoring against the capped training label instead of true RUL — is caught, explained, and fixed with before/after numbers rather than hidden.
+
+**Evidence:** 5 models compared identically across 4 CMAPSS subsets · RMSE 16.0–28.3 · calibrated conformal intervals · a documented, fixed evaluation bug.<br>
+**Public timeline:** 2026-08-11 → 2026-08-11 · [Repository ↗](https://github.com/Shiverion/AeroRUL)
+
+### 05 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
 
 `APPLIED ML` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
 
@@ -90,7 +100,7 @@ A probability-first forecasting pipeline with time-aware features, rolling backt
 **Evidence:** 384 chronologically held-out matches · 56.0% accuracy · 0.973 log loss · all 495 bracket assignments implemented.<br>
 **Public timeline:** 2026-06-18 → 2026-07-20 · [Live demo ↗](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repository ↗](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study ↗](https://shiverion.com/projects/world-cup-prediction)
 
-### 05 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
+### 06 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
 
 `LLM EVALUATION` · `LEVEL 3 — SUBSTANTIAL` · `PUBLIC REPO + MODEL`
 
@@ -99,7 +109,7 @@ An end-to-end QLoRA pipeline for a ≤3B SQL model, evaluated by parsing and exe
 **Evidence:** valid SQL improved from 40% to 73.5%; execution accuracy moved from 14.0% to 15.5% across 200 BIRD-dev questions.<br>
 **Public timeline:** 2026-06-21 → 2026-06-24 · [Repository ↗](https://github.com/Shiverion/text2sql-finetuning) · [Adapter ↗](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora)
 
-### 06 / [Distill / Paprika](https://distill.shiverion.com)
+### 07 / [Distill / Paprika](https://distill.shiverion.com)
 
 `PRODUCTION AI` · `LEVEL 2 — FOCUSED` · `LIVE + PUBLIC CASE STUDY · PRIVATE SOURCE`
 
@@ -139,6 +149,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
+| **AeroRUL** | **4 · Extensive** | 2026-08-11 → 2026-08-11 | Five-model comparison with per-subset champion selection, split conformal uncertainty, a served FastAPI + React system, and a documented, fixed evaluation bug | [Repo](https://github.com/Shiverion/AeroRUL) |
 | **World Cup 2026 Prediction Engine** | **4 · Extensive** | 2026-06-18 → 2026-07-20 | Leakage-safe features, rolling backtests, proper scores, model registry, and full 48-team simulation | [Live demo](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study](https://shiverion.com/projects/world-cup-prediction) |
 | **England vs France: Third-Place Match Analysis** | **4 · Extensive** | 2026-07-19 → 2026-07-20 | Multi-source comparison tests a claim, separates effort from control, and bounds the conclusion | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) |
 | **Argentina Comeback Analysis** | **4 · Extensive** | 2026-07-10 → 2026-07-20 | Historical comparison population, leakage-safe modeling, counterfactual sensitivity, and evidence gates | [Snapshot](https://github.com/Shiverion/argentina-comeback-analysis/tree/c434dea2edc3fbf7ab124f5d88ed217f5396df8d) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/c434dea2edc3fbf7ab124f5d88ed217f5396df8d/results/analysis_report.md) |
@@ -208,7 +219,7 @@ These projects remain part of the record. They appear after the deeper work beca
 | **Agents & tool systems** | MCP · OpenAI Agents SDK · LangGraph · CrewAI · n8n | Tool boundaries, orchestration, deterministic evals, multi-agent workflows |
 | **Retrieval & LLM evaluation** | Gemini · OpenAI · Hugging Face · FAISS · BM25 · IndoBERT · QLoRA | Human review, execution tests, ablations, cost and failure analysis |
 | **Product engineering** | Next.js · React · FastAPI · Firebase / Firestore · WebRTC · Tauri | Auth, quotas, persistence, real-time media, local and cloud delivery |
-| **ML & data** | PyTorch · scikit-learn · Pandas · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, interpretability, resource benchmarks |
+| **ML & data** | PyTorch · XGBoost · scikit-learn · Pandas · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, conformal uncertainty, survival analysis, interpretability, resource benchmarks |
 | **Delivery** | GCP · Cloud Run · Vercel · Docker · CI/CD | Public demos, container delivery, serverless products, automated checks |
 
 ## Connect
