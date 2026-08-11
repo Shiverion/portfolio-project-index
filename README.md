@@ -82,14 +82,14 @@ An analyst workbench for registered source-QC triage of primary-human CD4+ T-cel
 **Evidence:** 33,983 perturbation-condition rows audited · six registered source-QC gates · 1,652 eligible rows · 224 genes passing all gates across three conditions.<br>
 **Public timeline:** 2026-07-29 → 2026-07-29 · [Video overview ↗](https://drive.google.com/file/d/1c9wvq_Cp6V_RtU8KsLnrK1jHoRi_1T8e/view) · [Live workbench ↗](https://tcell-evidence.shiverion.com/) · [Repository ↗](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study ↗](https://shiverion.com/projects/t-cell-evidence-workbench)
 
-### 04 / [AeroRUL](https://github.com/Shiverion/AeroRUL)
+### 04 / [AeroRUL](https://aerorul.shiverion.com/)
 
-`APPLIED ML / MLOPS` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
+`APPLIED ML / MLOPS` · `LEVEL 4 — EXTENSIVE` · `LIVE + PUBLIC REPO`
 
 A full-pipeline turbofan-engine Remaining Useful Life system: condition-aware feature engineering, a five-model comparison (XGBoost, LSTM, TCN, Transformer, Weibull AFT survival) with a per-subset champion, split conformal prediction intervals, and a FastAPI + React dashboard shipped either backend-free or against a live API. A real evaluation bug — scoring against the capped training label instead of true RUL — is caught, explained, and fixed with before/after numbers rather than hidden.
 
 **Evidence:** 5 models compared identically across 4 CMAPSS subsets · RMSE 16.0–28.3 · calibrated conformal intervals · a documented, fixed evaluation bug.<br>
-**Public timeline:** 2026-08-11 → 2026-08-11 · [Repository ↗](https://github.com/Shiverion/AeroRUL)
+**Public timeline:** 2026-08-11 → 2026-08-11 · [Live fleet dashboard ↗](https://aerorul.shiverion.com/) · [Repository ↗](https://github.com/Shiverion/AeroRUL)
 
 ### 05 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
 
@@ -149,7 +149,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
-| **AeroRUL** | **4 · Extensive** | 2026-08-11 → 2026-08-11 | Five-model comparison with per-subset champion selection, split conformal uncertainty, a served FastAPI + React system, and a documented, fixed evaluation bug | [Repo](https://github.com/Shiverion/AeroRUL) |
+| **AeroRUL** | **4 · Extensive** | 2026-08-11 → 2026-08-11 | Five-model comparison with per-subset champion selection, split conformal uncertainty, a served FastAPI + React system, and a documented, fixed evaluation bug | [Live](https://aerorul.shiverion.com/) · [Repo](https://github.com/Shiverion/AeroRUL) |
 | **World Cup 2026 Prediction Engine** | **4 · Extensive** | 2026-06-18 → 2026-07-20 | Leakage-safe features, rolling backtests, proper scores, model registry, and full 48-team simulation | [Live demo](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study](https://shiverion.com/projects/world-cup-prediction) |
 | **England vs France: Third-Place Match Analysis** | **4 · Extensive** | 2026-07-19 → 2026-07-20 | Multi-source comparison tests a claim, separates effort from control, and bounds the conclusion | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) |
 | **Argentina Comeback Analysis** | **4 · Extensive** | 2026-07-10 → 2026-07-20 | Historical comparison population, leakage-safe modeling, counterfactual sensitivity, and evidence gates | [Snapshot](https://github.com/Shiverion/argentina-comeback-analysis/tree/c434dea2edc3fbf7ab124f5d88ed217f5396df8d) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/c434dea2edc3fbf7ab124f5d88ed217f5396df8d/results/analysis_report.md) |
