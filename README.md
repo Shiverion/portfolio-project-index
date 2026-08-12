@@ -29,7 +29,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-08-11</sub></p>
+<p align="center"><sub>Index reviewed 2026-08-13</sub></p>
 
 ---
 
@@ -50,6 +50,7 @@ My work ranges from Indonesian legal-document research and bioinformatics eviden
 | **98% less memory · up to 100× faster** under benchmarked workloads | [Dataframe benchmark case study](https://shiverion.com/projects/dataframe-benchmark) |
 | **384-match chronological backtest** across six World Cup windows | [World Cup 2026 engine](https://github.com/Shiverion/ml-world-cup-prediction) |
 | **Caught an eval bug hiding 45% of true FD002 error** | [AeroRUL](https://github.com/Shiverion/AeroRUL) |
+| **Validated against a real, documented 2021 flood via Sentinel-1 SAR** | [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia) |
 
 ## Selected work
 
@@ -91,7 +92,16 @@ A full-pipeline turbofan-engine Remaining Useful Life system: condition-aware fe
 **Evidence:** 5 models compared identically across 4 CMAPSS subsets · RMSE 16.0–28.3 · calibrated conformal intervals · a documented, fixed evaluation bug.<br>
 **Public timeline:** 2026-08-11 → 2026-08-11 · [Live fleet dashboard ↗](https://aerorul.shiverion.com/) · [Repository ↗](https://github.com/Shiverion/AeroRUL)
 
-### 05 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
+### 05 / [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia)
+
+`GEOSPATIAL DATA ANALYSIS / DISASTER RESEARCH` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
+
+An independent replication and extension of a KEMRI-Wellcome/Oxford disaster-accessibility methodology (Macharia et al., Kenya), applied to the real, documented January 2021 South Kalimantan flood. Validates flood disruption against Sentinel-1 SAR-observed extent rather than a static hazard-risk proxy, adds district-level healthcare workforce capacity weighting, and surfaces a network-topology finding — which roads flood matters more than how much area does.
+
+**Evidence:** ~4.5M population, 90 facilities, 592k-node road graph · real-event validation resolves an inequality confound (−6.5pp vs −1.5pp) · 94% disconnected from only 9.9% of edges removed.<br>
+**Public timeline:** 2026-08-11 → 2026-08-12 · [Manuscript ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Repository ↗](https://github.com/Shiverion/HealthReach-Indonesia)
+
+### 06 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
 
 `APPLIED ML` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
 
@@ -100,7 +110,7 @@ A probability-first forecasting pipeline with time-aware features, rolling backt
 **Evidence:** 384 chronologically held-out matches · 56.0% accuracy · 0.973 log loss · all 495 bracket assignments implemented.<br>
 **Public timeline:** 2026-06-18 → 2026-07-20 · [Live demo ↗](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repository ↗](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study ↗](https://shiverion.com/projects/world-cup-prediction)
 
-### 06 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
+### 07 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
 
 `LLM EVALUATION` · `LEVEL 3 — SUBSTANTIAL` · `PUBLIC REPO + MODEL`
 
@@ -109,7 +119,7 @@ An end-to-end QLoRA pipeline for a ≤3B SQL model, evaluated by parsing and exe
 **Evidence:** valid SQL improved from 40% to 73.5%; execution accuracy moved from 14.0% to 15.5% across 200 BIRD-dev questions.<br>
 **Public timeline:** 2026-06-21 → 2026-06-24 · [Repository ↗](https://github.com/Shiverion/text2sql-finetuning) · [Adapter ↗](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora)
 
-### 07 / [Distill / Paprika](https://distill.shiverion.com)
+### 08 / [Distill / Paprika](https://distill.shiverion.com)
 
 `PRODUCTION AI` · `LEVEL 2 — FOCUSED` · `LIVE + PUBLIC CASE STUDY · PRIVATE SOURCE`
 
@@ -150,6 +160,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **AeroRUL** | **4 · Extensive** | 2026-08-11 → 2026-08-11 | Five-model comparison with per-subset champion selection, split conformal uncertainty, a served FastAPI + React system, and a documented, fixed evaluation bug | [Live](https://aerorul.shiverion.com/) · [Repo](https://github.com/Shiverion/AeroRUL) |
+| **HealthReach Indonesia** | **4 · Extensive** | 2026-08-11 → 2026-08-12 | Real 2021 flood validated via Sentinel-1 SAR against a hazard-proxy baseline, district capacity weighting, and a network-topology finding | [Manuscript](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Repo](https://github.com/Shiverion/HealthReach-Indonesia) |
 | **World Cup 2026 Prediction Engine** | **4 · Extensive** | 2026-06-18 → 2026-07-20 | Leakage-safe features, rolling backtests, proper scores, model registry, and full 48-team simulation | [Live demo](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study](https://shiverion.com/projects/world-cup-prediction) |
 | **England vs France: Third-Place Match Analysis** | **4 · Extensive** | 2026-07-19 → 2026-07-20 | Multi-source comparison tests a claim, separates effort from control, and bounds the conclusion | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) |
 | **Argentina Comeback Analysis** | **4 · Extensive** | 2026-07-10 → 2026-07-20 | Historical comparison population, leakage-safe modeling, counterfactual sensitivity, and evidence gates | [Snapshot](https://github.com/Shiverion/argentina-comeback-analysis/tree/c434dea2edc3fbf7ab124f5d88ed217f5396df8d) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/c434dea2edc3fbf7ab124f5d88ed217f5396df8d/results/analysis_report.md) |
@@ -219,7 +230,7 @@ These projects remain part of the record. They appear after the deeper work beca
 | **Agents & tool systems** | MCP · OpenAI Agents SDK · LangGraph · CrewAI · n8n | Tool boundaries, orchestration, deterministic evals, multi-agent workflows |
 | **Retrieval & LLM evaluation** | Gemini · OpenAI · Hugging Face · FAISS · BM25 · IndoBERT · QLoRA | Human review, execution tests, ablations, cost and failure analysis |
 | **Product engineering** | Next.js · React · FastAPI · Firebase / Firestore · WebRTC · Tauri | Auth, quotas, persistence, real-time media, local and cloud delivery |
-| **ML & data** | PyTorch · XGBoost · scikit-learn · Pandas · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, conformal uncertainty, survival analysis, interpretability, resource benchmarks |
+| **ML & data** | PyTorch · XGBoost · scikit-learn · Pandas · GeoPandas · NetworkX · Sentinel-1 SAR · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, conformal uncertainty, survival analysis, geospatial/network accessibility modeling, interpretability, resource benchmarks |
 | **Delivery** | GCP · Cloud Run · Vercel · Docker · CI/CD | Public demos, container delivery, serverless products, automated checks |
 
 ## Connect
