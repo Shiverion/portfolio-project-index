@@ -29,7 +29,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-08-13</sub></p>
+<p align="center"><sub>Index reviewed 2026-08-15</sub></p>
 
 ---
 
@@ -223,6 +223,17 @@ These projects remain part of the record. They appear after the deeper work beca
 | --- | --- | ---: | --- |
 | **PT Internasional Teknik Nusantara website and internal AI systems** | **Not scored** | — | Company and internal work is acknowledged, but private details are not ranked against inspectable public artifacts. |
 
+## Certifications
+
+### Geospatial Information Technology (GIT) in Fragile Contexts
+
+**United Nations Institute for Training and Research (UNITAR) / UNOSAT** · Certificate of completion · August 14, 2026
+
+A United Nations geospatial training credential for the GIT in Fragile Contexts course. The source is a private personal certificate record; the portfolio provides a public preview and copy.
+
+- [Portfolio certificate page](https://shiverion.com/certifications)
+- [Certificate PDF](https://shiverion.com/certificates/unitar/geospatial-information-technology-fragile-contexts.pdf)
+- No public repository applies; source private.
 ## Capabilities
 
 | Area | Working range | Evidence in this index |
