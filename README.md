@@ -29,7 +29,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-08-15</sub></p>
+<p align="center"><sub>Index reviewed 2026-08-19</sub></p>
 
 ---
 
@@ -94,12 +94,12 @@ A full-pipeline turbofan-engine Remaining Useful Life system: condition-aware fe
 
 ### 05 / [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia)
 
-`GEOSPATIAL DATA ANALYSIS / DISASTER RESEARCH` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
+`GEOSPATIAL DATA ANALYSIS / DISASTER RESEARCH` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO + PREPRINT`
 
-An independent replication and extension of a KEMRI-Wellcome/Oxford disaster-accessibility methodology (Macharia et al., Kenya), applied to the real, documented January 2021 South Kalimantan flood using Sentinel-1 SAR-derived extent rather than a static hazard-risk proxy. Four rounds of external review found and fixed eleven issues; the most rigorous of them — a randomization null model built to strengthen a network-topology "chokepoint" finding — strongly contradicted it instead, and the project retracted the finding outright rather than reframing it.
+An independent replication and extension of a KEMRI-Wellcome/Oxford disaster-accessibility methodology (Macharia et al., Kenya), applied to the real, documented January 2021 South Kalimantan flood using Sentinel-1 SAR-derived extent rather than a static hazard-risk proxy. Four rounds of external review found and fixed eleven issues; the most rigorous of them — a randomization null model built to strengthen a network-topology "chokepoint" finding — strongly contradicted it instead, and the project retracted the finding outright rather than reframing it. Now archived as a Zenodo preprint (v0.3.1).
 
 **Evidence:** 365 facilities (corrected from a 4x undercount) · a chronic 17.2pp accessibility gap that widens to 19.6pp under the real flood, with a hazard-risk proxy shown to overstate that widening 1.7-2.6x · a headline finding tested against a 200-trial null model and retracted (p≈0.005, wrong direction) · a separate pathing bug found and fixed along the way (severe-scenario disconnection corrected from a buggy 94.0%/74.0% to 68.6%/51.6%).<br>
-**Public timeline:** 2026-08-11 → 2026-08-12 · [Manuscript ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Robustness Checks ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/robustness_checks.md) · [Repository ↗](https://github.com/Shiverion/HealthReach-Indonesia)
+**Public timeline:** 2026-08-11 → 2026-08-19 · [Preprint (Zenodo) ↗](https://doi.org/10.5281/zenodo.22004183) · [Manuscript ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Robustness Checks ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/robustness_checks.md) · [Repository ↗](https://github.com/Shiverion/HealthReach-Indonesia)
 
 ### 06 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
 
@@ -160,7 +160,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **AeroRUL** | **4 · Extensive** | 2026-08-11 → 2026-08-11 | Five-model comparison with per-subset champion selection, split conformal uncertainty, a served FastAPI + React system, and a documented, fixed evaluation bug | [Live](https://aerorul.shiverion.com/) · [Repo](https://github.com/Shiverion/AeroRUL) |
-| **HealthReach Indonesia** | **4 · Extensive** | 2026-08-11 → 2026-08-12 | Real 2021 flood, Sentinel-1 SAR-derived extent; four review rounds fixed a 4x facility undercount and a pathing bug, and retracted a headline "chokepoint" finding after a null-model test contradicted it | [Manuscript](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Robustness Checks](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/robustness_checks.md) · [Repo](https://github.com/Shiverion/HealthReach-Indonesia) |
+| **HealthReach Indonesia** | **4 · Extensive** | 2026-08-11 → 2026-08-19 | Real 2021 flood, Sentinel-1 SAR-derived extent; four review rounds fixed a 4x facility undercount and a pathing bug, and retracted a headline "chokepoint" finding after a null-model test contradicted it | [Preprint](https://doi.org/10.5281/zenodo.22004183) · [Manuscript](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Robustness Checks](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/robustness_checks.md) · [Repo](https://github.com/Shiverion/HealthReach-Indonesia) |
 | **World Cup 2026 Prediction Engine** | **4 · Extensive** | 2026-06-18 → 2026-07-20 | Leakage-safe features, rolling backtests, proper scores, model registry, and full 48-team simulation | [Live demo](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repo](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study](https://shiverion.com/projects/world-cup-prediction) |
 | **England vs France: Third-Place Match Analysis** | **4 · Extensive** | 2026-07-19 → 2026-07-20 | Multi-source comparison tests a claim, separates effort from control, and bounds the conclusion | [Repo](https://github.com/Shiverion/england-france-third-place-analysis) · [Report](https://github.com/Shiverion/england-france-third-place-analysis/blob/main/output/england_france_2026_third_place_insights_v2.md) |
 | **Argentina Comeback Analysis** | **4 · Extensive** | 2026-07-10 → 2026-07-20 | Historical comparison population, leakage-safe modeling, counterfactual sensitivity, and evidence gates | [Snapshot](https://github.com/Shiverion/argentina-comeback-analysis/tree/c434dea2edc3fbf7ab124f5d88ed217f5396df8d) · [Report](https://github.com/Shiverion/argentina-comeback-analysis/blob/c434dea2edc3fbf7ab124f5d88ed217f5396df8d/results/analysis_report.md) |
