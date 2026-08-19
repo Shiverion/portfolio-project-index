@@ -16,6 +16,7 @@
   <a href="https://www.linkedin.com/in/izzulhaq-iqbal/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-CONNECT-0B1220?style=for-the-badge&amp;logo=linkedin&amp;logoColor=60A5FA"></a>
   <a href="https://medium.com/@miqbal.izzulhaq"><img alt="Medium" src="https://img.shields.io/badge/MEDIUM-READ-0B1220?style=for-the-badge&amp;logo=medium&amp;logoColor=F8FAFC"></a>
   <a href="https://openreview.net/forum?id=46hzq45LPE"><img alt="OpenReview paper" src="https://img.shields.io/badge/OPENREVIEW-PAPER-0B1220?style=for-the-badge&amp;logo=openreview&amp;logoColor=A78BFA"></a>
+  <a href="https://orcid.org/0009-0009-6482-1899"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-0009--0009--6482--1899-0B1220?style=for-the-badge&amp;logo=orcid&amp;logoColor=A6CE39"></a>
 </p>
 
 <p align="center">
@@ -234,6 +235,17 @@ A United Nations geospatial training credential for the GIT in Fragile Contexts 
 - [Portfolio certificate page](https://shiverion.com/certifications)
 - [Certificate PDF](https://shiverion.com/certificates/unitar/geospatial-information-technology-fragile-contexts.pdf)
 - No public repository applies; source private.
+
+### NASA Open Science 101 & NASA Open Science Essentials
+
+**NASA Open Science (NASA Science Mission Directorate)** · Foundational-level badges · Issued August 17-18, 2026
+
+Two-part open science training: Essentials gives a high-level overview, and 101 goes deeper into planning, conducting, and participating in open science research — legal/ethical considerations and best practices for open code, data, results, and tools.
+
+- [Open Science 101 badge (Credly)](https://www.credly.com/badges/a189b7d3-4282-46e7-9e55-75e0dcb303ee/public_url)
+- [Open Science Essentials badge (Credly)](https://www.credly.com/badges/a3b0471e-2e1e-45bf-847e-cdb2fdf12fb6/public_url)
+- [Portfolio certificate page](https://shiverion.com/certifications)
+- No public repository applies; badge issuer verification via Credly.
 ## Capabilities
 
 | Area | Working range | Evidence in this index |
@@ -252,6 +264,8 @@ The fastest way to understand my work is to inspect the repository, read the ben
 - **GitHub:** [github.com/Shiverion](https://github.com/Shiverion)
 - **LinkedIn:** [linkedin.com/in/izzulhaq-iqbal](https://www.linkedin.com/in/izzulhaq-iqbal/)
 - **Writing:** [medium.com/@miqbal.izzulhaq](https://medium.com/@miqbal.izzulhaq)
+- **ORCID:** [0009-0009-6482-1899](https://orcid.org/0009-0009-6482-1899)
+- **Credly:** [credly.com/users/shiverion](https://www.credly.com/users/shiverion)
 
 This repository is a maintained index of public repositories, live products, selected private work, and the evidence currently available for each.
 
