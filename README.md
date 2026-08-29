@@ -51,7 +51,8 @@ My work ranges from Indonesian legal-document research and bioinformatics eviden
 | **98% less memory · up to 100× faster** under benchmarked workloads | [Dataframe benchmark case study](https://shiverion.com/projects/dataframe-benchmark) |
 | **384-match chronological backtest** across six World Cup windows | [World Cup 2026 engine](https://github.com/Shiverion/ml-world-cup-prediction) |
 | **Caught an eval bug hiding 45% of true FD002 error** | [AeroRUL](https://github.com/Shiverion/AeroRUL) |
-| **Retracted its own headline finding after a null-model test (p≈0.005)** | [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia) |`n| **+5.89pp fire-to-forest-loss association, explicitly non-causal** | [Indonesia Wildfire Analysis](https://indonesia-wildfire-analysis.vercel.app) |
+| **Retracted its own headline finding after a null-model test (p≈0.005)** | [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia) |
+| **+5.89pp fire-to-forest-loss association, explicitly non-causal** | [Indonesia Wildfire Analysis](https://fire-research.shiverion.com) |
 
 ## Selected work
 
@@ -102,14 +103,14 @@ An independent replication and extension of a KEMRI-Wellcome/Oxford disaster-acc
 **Evidence:** 365 facilities (corrected from a 4x undercount) · a chronic 17.2pp accessibility gap that widens to 19.6pp under the real flood, with a hazard-risk proxy shown to overstate that widening 1.7-2.6x · a headline finding tested against a 200-trial null model and retracted (p≈0.005, wrong direction) · a separate pathing bug found and fixed along the way (severe-scenario disconnection corrected from a buggy 94.0%/74.0% to 68.6%/51.6%).<br>
 **Public timeline:** 2026-08-11 → 2026-08-19 · [Preprint (Zenodo) ↗](https://doi.org/10.5281/zenodo.22004183) · [Manuscript ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Robustness Checks ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/robustness_checks.md) · [Repository ↗](https://github.com/Shiverion/HealthReach-Indonesia)
 
-### 06 / [Indonesia Wildfire Analysis](https://indonesia-wildfire-analysis.vercel.app)
+### 06 / [Indonesia Wildfire Analysis](https://fire-research.shiverion.com)
 
 `GEOSPATIAL RESEARCH & EVALUATION` · `LEVEL 4 — EXTENSIVE` · `LIVE REPORT · PRIVATE SOURCE`
 
 A gated, reproducible Kalimantan wildfire research program built to make supported evidence useful without promoting descriptive hotspots into claims about people, intent, ownership, legality, profit, plantation conversion, or government performance. Frozen registrations, exact matched opportunity sets, deterministic quality gates, and coordinate-free reporting keep the design and its limits inspectable.
 
 **Evidence:** 7,138 complete exact matched sets · a +5.89 percentage-point association between fire detection and losing at least 10% of pre-index natural forest within one year (95% CI: +4.52 to +7.25) · 41.4% incomplete support and a positive +2.31pp pre-exposure negative control, so the result is explicitly non-causal · an inconclusive registered peat-by-dryness interaction (OR 0.866, p=0.209).<br>
-**Public timeline:** 2026-08-23 → 2026-08-29 · [Live evidence report ↗](https://indonesia-wildfire-analysis.vercel.app) · source private
+**Public timeline:** 2026-08-23 → 2026-08-29 · [Live evidence report ↗](https://fire-research.shiverion.com) · [Repository ↗](https://github.com/Shiverion/indonesia-wildfire-analysis) · source private
 
 ### 07 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
 
@@ -161,7 +162,8 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **VerdictBench** | **4 · Extensive** | 2026-03-19 → 2026-06-27 | 300 human-reviewed legal QA pairs; comparative evaluation; cost and failure analysis | [Repo](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Paper](https://openreview.net/forum?id=46hzq45LPE) |
-| **T-cell Evidence Workbench** | **4 · Extensive** | 2026-07-29 → 2026-07-29 | Registered source-QC contract, 33,983 audited rows, decomposable ranking, evidence graphs, robustness analysis, and artifact provenance | [Video](https://drive.google.com/file/d/1c9wvq_Cp6V_RtU8KsLnrK1jHoRi_1T8e/view) · [Live](https://tcell-evidence.shiverion.com/) · [Repo](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study](https://shiverion.com/projects/t-cell-evidence-workbench) |`n| **Indonesia Wildfire Analysis** | **4 · Extensive** | 2026-08-23 → 2026-08-29 | Frozen registrations, exact matched opportunity sets, deterministic gates, registered sensitivities, and explicit causal limits | [Live evidence report](https://indonesia-wildfire-analysis.vercel.app) · source private |
+| **T-cell Evidence Workbench** | **4 · Extensive** | 2026-07-29 → 2026-07-29 | Registered source-QC contract, 33,983 audited rows, decomposable ranking, evidence graphs, robustness analysis, and artifact provenance | [Video](https://drive.google.com/file/d/1c9wvq_Cp6V_RtU8KsLnrK1jHoRi_1T8e/view) · [Live](https://tcell-evidence.shiverion.com/) · [Repo](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study](https://shiverion.com/projects/t-cell-evidence-workbench) |
+| **Indonesia Wildfire Analysis** | **4 · Extensive** | 2026-08-23 → 2026-08-29 | Frozen registrations, exact matched opportunity sets, deterministic gates, registered sensitivities, and explicit causal limits | [Live evidence report](https://fire-research.shiverion.com) · [Repo](https://github.com/Shiverion/indonesia-wildfire-analysis) · source private |
 | **Text2SQL Fine-tuning** | **3 · Substantial** | 2026-06-21 → 2026-06-24 | QLoRA, three ablations, and execution-based evaluation on 200 BIRD-dev questions | [Repo](https://github.com/Shiverion/text2sql-finetuning) · [Adapter](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora) |
 | **Pandas vs Polars vs DuckDB** | **3 · Substantial** | 2026-02-13 → 2026-02-13 | Reproducible performance and memory benchmark over 13.1M SUSENAS rows | [Repo](https://github.com/Shiverion/dataframe-engine-comparison) · [Case study](https://shiverion.com/projects/dataframe-benchmark) |
 
