@@ -247,6 +247,15 @@ A United Nations geospatial training credential for the GIT in Fragile Contexts 
 - [Certificate PDF](https://shiverion.com/certificates/unitar/geospatial-information-technology-fragile-contexts.pdf)
 - No public repository applies; source private.
 
+### NASA ARSET — Fundamentals of Remote Sensing
+
+**NASA Applied Remote Sensing Training (ARSET) Program** · Certificate of completion · September 3, 2026
+
+A NASA ARSET training credential covering the fundamentals of remote sensing. The source is a private personal certificate record; the portfolio provides a public preview and copy.
+
+- [Portfolio certificate page](https://shiverion.com/certifications)
+- [Certificate PDF](https://shiverion.com/certificates/nasa/fundamentals-of-remote-sensing.pdf)
+- No public repository applies; source private.
 ### NASA Open Science 101 & NASA Open Science Essentials
 
 **NASA Open Science (NASA Science Mission Directorate)** · Foundational-level badges · Issued August 17-18, 2026
