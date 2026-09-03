@@ -256,6 +256,7 @@ A NASA ARSET training credential covering the fundamentals of remote sensing. Th
 - [Portfolio certificate page](https://shiverion.com/certifications)
 - [Certificate PDF](https://shiverion.com/certificates/nasa/fundamentals-of-remote-sensing.pdf)
 - No public repository applies; source private.
+
 ### NASA Open Science 101 & NASA Open Science Essentials
 
 **NASA Open Science (NASA Science Mission Directorate)** · Foundational-level badges · Issued August 17-18, 2026
