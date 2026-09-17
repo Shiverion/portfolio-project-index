@@ -30,7 +30,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-08-31</sub></p>
+<p align="center"><sub>Index reviewed 2026-09-18</sub></p>
 
 ---
 
@@ -267,6 +267,18 @@ Two-part open science training: Essentials gives a high-level overview, and 101 
 - [Open Science Essentials badge (Credly)](https://www.credly.com/badges/a3b0471e-2e1e-45bf-847e-cdb2fdf12fb6/public_url)
 - [Portfolio certificate page](https://shiverion.com/certifications)
 - No public repository applies; badge issuer verification via Credly.
+### AMD AI Academy — AI on AMD & AMD ROCm Certified Associate
+
+**AMD AI Academy / AMD ROCm** · AI certificate and associate certification · September 13-17, 2026
+
+Two AMD credentials covering AI on AMD and AI/HPC application development, optimization, and deployment on AMD Instinct GPU platforms using ROCm and HIP. The ROCm credential ID is 849f7145-dd55-4559-8f8e-bd0edf35234d; valid through September 17, 2028. The source is a private personal certificate record; the portfolio provides public copies and the badge asset.
+
+- [AI on AMD certificate](https://shiverion.com/certificates/amd/ai-on-amd.pdf)
+- [AMD ROCm certificate](https://shiverion.com/certificates/amd/amd-rocm-certified-associate.pdf)
+- [AMD ROCm badge](https://shiverion.com/Badges/amd-rocm-certified-associate.png)
+- [AMD ROCm certification details](https://developer.amd.com/rocm-certified/)
+- [Portfolio certification and badge gallery](https://shiverion.com/certifications)
+- No public repository applies; source private.
 ## Capabilities
 
 | Area | Working range | Evidence in this index |
