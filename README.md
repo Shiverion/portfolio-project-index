@@ -286,7 +286,7 @@ Two AMD credentials covering AI on AMD and AI/HPC application development, optim
 | **Agents & tool systems** | MCP · OpenAI Agents SDK · LangGraph · CrewAI · n8n | Tool boundaries, orchestration, deterministic evals, multi-agent workflows |
 | **Retrieval & LLM evaluation** | Gemini · OpenAI · Hugging Face · FAISS · BM25 · IndoBERT · QLoRA | Human review, execution tests, ablations, cost and failure analysis |
 | **Product engineering** | Next.js · React · FastAPI · Firebase / Firestore · WebRTC · Tauri | Auth, quotas, persistence, real-time media, local and cloud delivery |
-| **ML & data** | PyTorch · XGBoost · scikit-learn · Pandas · GeoPandas · NetworkX · Sentinel-1 SAR · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, conformal uncertainty, survival analysis, geospatial/network accessibility modeling, interpretability, resource benchmarks |
+| **ML & data** | PyTorch · XGBoost · scikit-learn · Pandas · GeoPandas · NetworkX · Sentinel-1 SAR · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL · AMD ROCm · HIP | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, conformal uncertainty, survival analysis, geospatial/network accessibility modeling, interpretability, resource benchmarks |
 | **Delivery** | GCP · Cloud Run · Vercel · Docker · CI/CD | Public demos, container delivery, serverless products, automated checks |
 
 ## Connect
