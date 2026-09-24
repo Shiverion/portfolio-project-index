@@ -195,7 +195,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
-| **InterviewMate AI** | **3 · Substantial** | 2026-02-28 → 2026-09-21 | Production-hosted recruiter prototype: batch CV screening (up to 50), scoped invitations, WebRTC voice + text interviews, and cited 0–4 evidence assessments for human review | [Repo](https://github.com/Shiverion/interviewmate-ai) · [Live](https://interviewmate-ai.shiverion.com/) |
+| **InterviewMate AI** | **3 · Substantial** | 2026-02-28 → 2026-09-21 | Production-hosted recruiter prototype: batch CV screening (up to 50), scoped invitations, WebRTC voice + text interviews, and cited 0–4 evidence assessments for human review; latest branch adds centralized provider resolution (1,140 tests / 27 suites) | [Repo](https://github.com/Shiverion/interviewmate-ai) · [Live](https://interviewmate-ai.shiverion.com/) |
 | **Case Vault** | **3 · Substantial** | — | Procedural case state, evidence consistency, suspect interrogation, and episodic progression | [Live](https://casevault.shiverion.com/) · [Case study](https://shiverion.com/projects/case-vault) · source private |
 | **Financial Wellness Agent** | **3 · Substantial** | — | Public case study documents a six-agent workflow, receipts, budgets, goals, market data, queues, and cost controls | [Case study](https://shiverion.com/projects/financial-wellness-agent) · source private |
 | **Distill / Paprika** | **2 · Focused** | — | Seven structured outputs, native paper input, interactive study modes, auth, persistence, and quotas | [Live](https://distill.shiverion.com) · [Case study](https://shiverion.com/projects/paprika) · source private |
