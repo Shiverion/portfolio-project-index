@@ -233,7 +233,7 @@ These projects remain part of the record. They appear after the deeper work beca
 
 | Work | Level | Public timeline | Context |
 | --- | --- | ---: | --- |
-| **PT Internasional Teknik Nusantara website and internal AI systems** | **Not scored** | — | Company and internal work is acknowledged, but private details are not ranked against inspectable public artifacts. |
+| **PT Internasional Teknik Nusantara website and internal AI systems** | **Not scored** | — | Leads AI-enabled transformation through an internal-knowledge business dashboard, a unified ERP/project intelligence view, and human-reviewed AI workflows for finance reporting, tax processes, project analysis, consulting, and document work. Internal systems and company data are private. The EPC tender intelligence work has a [public MCP showcase](https://github.com/Shiverion/epc-tender-screening-mcp-showcase). |
 
 ## Certifications
 
