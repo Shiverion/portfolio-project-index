@@ -30,7 +30,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-10-04</sub></p>
+<p align="center"><sub>Index reviewed 2026-10-08</sub></p>
 
 ---
 
@@ -76,7 +76,17 @@ An agent-agnostic MCP server for reviewable EPC tender bid/no-bid screening. Ten
 **Evidence:** 10 MCP tools · orchestrated `screen_tender` workflow · deterministic evals · evidence-linked outputs.<br>
 **Public timeline:** 2026-06-08 → 2026-06-08 · [Repository ↗](https://github.com/Shiverion/epc-tender-screening-mcp-showcase)
 
-### 03 / [T-cell Evidence Workbench](https://github.com/Shiverion/t-cell-evidence-workbench)
+### 03 / [ITN Ops Dashboard](https://github.com/Shiverion/itn-ops-dashboard)
+
+`PRODUCTION AI / OPERATIONS` · `LEVEL 4 — EXTENSIVE` · `LIVE DEMO + PUBLIC REPO · PRODUCTION RECORDS PRIVATE`
+
+The operations dashboard I built for PT Internasional Teknik Nusantara, an Indonesian EPC contractor: revenue, invoices, projects, tenders, certificates, taxes, and contracts in one phone-friendly workspace, with Google Sheets kept as the system of record. The server reads and writes Google Workspace as the signed-in viewer, every edit and deletion is audited, and the AI advisor runs with no tools and human review of any drafted record. The production data and knowledge pipeline are private; a public stakeholder demo runs the same business rules on a fictional company.
+
+**Evidence (inspectable):** documented security model and architecture trade-offs in the public repository · eight operational areas · shared, tested business-logic module reused by the server and the demo · formula-safe writes, hash-pinned CSP, no-tools AI.<br>
+**Not claimed here:** adoption or time-saved figures — production use is internal to the company and is not independently verifiable from public artifacts.<br>
+**Public timeline:** 2026-10-03 → 2026-10-06 · [Live demo ↗](https://itnops.shiverion.com) (demo login) · [Repository ↗](https://github.com/Shiverion/itn-ops-dashboard) · [Case study ↗](https://shiverion.com/projects/itn-ops-dashboard)
+
+### 04 / [T-cell Evidence Workbench](https://github.com/Shiverion/t-cell-evidence-workbench)
 
 `BIOINFORMATICS & EVIDENCE TRIAGE` · `LEVEL 4 — EXTENSIVE` · `LIVE + PUBLIC REPO`
 
@@ -85,7 +95,7 @@ An analyst workbench for registered source-QC triage of primary-human CD4+ T-cel
 **Evidence:** 33,983 perturbation-condition rows audited · six registered source-QC gates · 1,652 eligible rows · 224 genes passing all gates across three conditions.<br>
 **Public timeline:** 2026-07-29 → 2026-07-29 · [Video overview ↗](https://drive.google.com/file/d/1c9wvq_Cp6V_RtU8KsLnrK1jHoRi_1T8e/view) · [Live workbench ↗](https://tcell-evidence.shiverion.com/) · [Repository ↗](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study ↗](https://shiverion.com/projects/t-cell-evidence-workbench)
 
-### 04 / [AeroRUL](https://aerorul.shiverion.com/)
+### 05 / [AeroRUL](https://aerorul.shiverion.com/)
 
 `APPLIED ML / MLOPS` · `LEVEL 4 — EXTENSIVE` · `LIVE + PUBLIC REPO`
 
@@ -94,7 +104,7 @@ A full-pipeline turbofan-engine Remaining Useful Life system: condition-aware fe
 **Evidence:** 5 models compared identically across 4 CMAPSS subsets · RMSE 16.0–28.3 · calibrated conformal intervals · a documented, fixed evaluation bug.<br>
 **Public timeline:** 2026-08-11 → 2026-08-11 · [Live fleet dashboard ↗](https://aerorul.shiverion.com/) · [Repository ↗](https://github.com/Shiverion/AeroRUL)
 
-### 05 / [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia)
+### 06 / [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia)
 
 `GEOSPATIAL DATA ANALYSIS / DISASTER RESEARCH` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO + PREPRINT`
 
@@ -103,7 +113,7 @@ An independent replication and extension of a KEMRI-Wellcome/Oxford disaster-acc
 **Evidence:** 365 facilities (corrected from a 4x undercount) · a chronic 17.2pp accessibility gap that widens to 19.6pp under the real flood, with a hazard-risk proxy shown to overstate that widening 1.7-2.6x · a headline finding tested against a 200-trial null model and retracted (p≈0.005, wrong direction) · a separate pathing bug found and fixed along the way (severe-scenario disconnection corrected from a buggy 94.0%/74.0% to 68.6%/51.6%).<br>
 **Public timeline:** 2026-08-11 → 2026-08-19 · [Preprint (Zenodo) ↗](https://doi.org/10.5281/zenodo.22004183) · [Manuscript ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/manuscript.md) · [Robustness Checks ↗](https://github.com/Shiverion/HealthReach-Indonesia/blob/master/docs/robustness_checks.md) · [Repository ↗](https://github.com/Shiverion/HealthReach-Indonesia)
 
-### 06 / [Indonesia Wildfire Analysis](https://fire-research.shiverion.com)
+### 07 / [Indonesia Wildfire Analysis](https://fire-research.shiverion.com)
 
 `GEOSPATIAL RESEARCH & EVALUATION` · `LEVEL 4 — EXTENSIVE` · `LIVE REPORT · PUBLIC REPO`
 
@@ -112,7 +122,7 @@ A gated, reproducible Kalimantan wildfire research program built to make support
 **Evidence:** 7,138 complete exact matched sets · a +5.89 percentage-point association between fire detection and losing at least 10% of pre-index natural forest within one year (95% CI: +4.52 to +7.25) · 41.4% incomplete support and a positive +2.31pp pre-exposure negative control, so the result is explicitly non-causal · an inconclusive registered peat-by-dryness interaction (OR 0.866, p=0.209).<br>
 **Public timeline:** 2026-08-23 → 2026-08-29 · [Live evidence report ↗](https://fire-research.shiverion.com) · [Repository ↗](https://github.com/Shiverion/indonesia-wildfire-analysis)
 
-### 07 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
+### 08 / [World Cup 2026 Prediction Engine](https://github.com/Shiverion/ml-world-cup-prediction)
 
 `APPLIED ML` · `LEVEL 4 — EXTENSIVE` · `PUBLIC REPO`
 
@@ -121,7 +131,7 @@ A probability-first forecasting pipeline with time-aware features, rolling backt
 **Evidence:** 384 chronologically held-out matches · 56.0% accuracy · 0.973 log loss · all 495 bracket assignments implemented.<br>
 **Public timeline:** 2026-06-18 → 2026-07-20 · [Live demo ↗](https://ml-world-cup-prediction-2026.streamlit.app/) · [Repository ↗](https://github.com/Shiverion/ml-world-cup-prediction) · [Case study ↗](https://shiverion.com/projects/world-cup-prediction)
 
-### 08 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
+### 09 / [Text2SQL Fine-tuning](https://github.com/Shiverion/text2sql-finetuning)
 
 `LLM EVALUATION` · `LEVEL 3 — SUBSTANTIAL` · `PUBLIC REPO + MODEL`
 
@@ -130,7 +140,7 @@ An end-to-end QLoRA pipeline for a ≤3B SQL model, evaluated by parsing and exe
 **Evidence:** valid SQL improved from 40% to 73.5%; execution accuracy moved from 14.0% to 15.5% across 200 BIRD-dev questions.<br>
 **Public timeline:** 2026-06-21 → 2026-06-24 · [Repository ↗](https://github.com/Shiverion/text2sql-finetuning) · [Adapter ↗](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora)
 
-### 09 / [Distill / Paprika](https://distill.shiverion.com)
+### 10 / [Distill / Paprika](https://distill.shiverion.com)
 
 `PRODUCTION AI` · `LEVEL 2 — FOCUSED` · `LIVE + PUBLIC CASE STUDY · PRIVATE SOURCE`
 
@@ -195,7 +205,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
-| **ITN Ops Dashboard** | **3 · Substantial** | 2026-10-02 → 2026-10-03 | Company-internal EPC operations dashboard spanning eight areas, with viewer-scoped Google Workspace permissions, audited edits and human-reviewed AI; public stakeholder demo runs the same business rules on a fictional company with a Kimi-powered advisor (demo login) | [Repo](https://github.com/Shiverion/itn-ops-dashboard) · [Live demo](https://itnops.shiverion.com) · [Case study](https://shiverion.com/projects/itn-ops-dashboard) · production records and pipeline source private |
+| **ITN Ops Dashboard** | **4 · Extensive** | 2026-10-03 → 2026-10-06 | Company-internal EPC operations dashboard spanning eight areas, with viewer-scoped Google Workspace permissions, audited edits and human-reviewed AI; public stakeholder demo runs the same business rules on a fictional company with a Kimi-powered advisor (demo login) | [Repo](https://github.com/Shiverion/itn-ops-dashboard) · [Live demo](https://itnops.shiverion.com) · [Case study](https://shiverion.com/projects/itn-ops-dashboard) · production records and pipeline source private |
 | **InterviewMate AI** | **3 · Substantial** | 2026-02-28 → 2026-09-21 | Production-hosted recruiter prototype: batch CV screening (up to 50), scoped invitations, WebRTC voice + text interviews, and cited 0–4 evidence assessments for human review; latest branch adds centralized provider resolution (1,140 tests / 27 suites) | [Repo](https://github.com/Shiverion/interviewmate-ai) · [Live](https://interviewmate-ai.shiverion.com/) |
 | **Case Vault** | **3 · Substantial** | — | Procedural case state, evidence consistency, suspect interrogation, and episodic progression | [Live](https://casevault.shiverion.com/) · [Case study](https://shiverion.com/projects/case-vault) · source private |
 | **Financial Wellness Agent** | **3 · Substantial** | — | Public case study documents a six-agent workflow, receipts, budgets, goals, market data, queues, and cost controls | [Case study](https://shiverion.com/projects/financial-wellness-agent) · source private |
