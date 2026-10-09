@@ -30,7 +30,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-10-08</sub></p>
+<p align="center"><sub>Index reviewed 2026-10-10</sub></p>
 
 ---
 
@@ -172,6 +172,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **VerdictBench** | **4 · Extensive** | 2026-03-19 → 2026-06-27 | 300 human-reviewed legal QA pairs; comparative evaluation; cost and failure analysis | [Repo](https://github.com/Shiverion/VerdictBench-LCvsRAG) · [Paper](https://openreview.net/forum?id=46hzq45LPE) |
+| **Beyond Sentiment: Mapping YouTube Responses to Disaster-News Advice** | **3 · Substantial** | — | 5,832 source comments; source-grounded and context labels; independent OpenAI/Kimi annotation; cutoff and viral timing limits stated | [Case study](https://shiverion.com/projects/beyond-sentiment-youtube-study) · Medium article planned · source private |
 | **T-cell Evidence Workbench** | **4 · Extensive** | 2026-07-29 → 2026-07-29 | Registered source-QC contract, 33,983 audited rows, decomposable ranking, evidence graphs, robustness analysis, and artifact provenance | [Video](https://drive.google.com/file/d/1c9wvq_Cp6V_RtU8KsLnrK1jHoRi_1T8e/view) · [Live](https://tcell-evidence.shiverion.com/) · [Repo](https://github.com/Shiverion/t-cell-evidence-workbench) · [Case study](https://shiverion.com/projects/t-cell-evidence-workbench) |
 | **Indonesia Wildfire Analysis** | **4 · Extensive** | 2026-08-23 → 2026-08-29 | Frozen registrations, exact matched opportunity sets, deterministic gates, registered sensitivities, and explicit causal limits | [Live evidence report](https://fire-research.shiverion.com) · [Repo](https://github.com/Shiverion/indonesia-wildfire-analysis) |
 | **Text2SQL Fine-tuning** | **3 · Substantial** | 2026-06-21 → 2026-06-24 | QLoRA, three ablations, and execution-based evaluation on 200 BIRD-dev questions | [Repo](https://github.com/Shiverion/text2sql-finetuning) · [Adapter](https://huggingface.co/Shiverion/qwen2.5-coder-1.5b-bird-qlora) |
@@ -219,6 +220,7 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **FocusForge** | **3 · Substantial** | 2025-12-22 → 2026-02-09 | Tauri desktop app combining distraction signals, Socratic review, achievements, analytics, and local state | [Repo](https://github.com/Shiverion/focusforge) · [Live](https://focusforge.shiverion.com/) · [Case study](https://shiverion.com/projects/focusforge) |
+| **Gymboard: From Muscle Map to Measurable Progress** | **2 · Focused** | — | Offline-first workout PWA connects anatomy, technique guidance, session logging, PRs, and progress analytics; local-first IndexedDB with optional Firebase sync | [Live](https://gym.shiverion.com/) · [Case study](https://shiverion.com/projects/gymboard) · source private |
 | **Baseline Pro** | **2 · Focused** | — | Localized coaching and booking product with schedule heatmaps, vouchers, content, badges, and admin tools | [Live](https://baseline-pro.vercel.app) · [Case study](https://shiverion.com/projects/baseline-pro) · source private |
 | **Badminton Court Reservation System** | **2 · Focused** | 2024-11-20 → 2024-11-20 | Complete Python workflow covering scheduling conflicts, operating-hour validation, payment states, roles, and feedback | [Repo](https://github.com/Shiverion/Badminton-Court-Reservation-System) |
 
