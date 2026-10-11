@@ -23,6 +23,7 @@
   <samp>
     <a href="#about">ABOUT</a> ·
     <a href="#selected-work">SELECTED WORK</a> ·
+    <a href="#selected-writing">WRITING</a> ·
     <a href="#how-this-index-is-curated">DEPTH GUIDE</a> ·
     <a href="#project-index">PROJECT INDEX</a> ·
     <a href="#capabilities">CAPABILITIES</a> ·
@@ -149,6 +150,15 @@ A paper-to-insights product that turns a PDF or paper URL into seven study and c
 **Evidence:** seven output types · PDF and URL input · Firebase auth · quotas and persistence.<br>
 **Timeline:** private source; dates not inferred · [Live product ↗](https://distill.shiverion.com) · [Case study ↗](https://shiverion.com/projects/paprika)
 
+## Selected writing
+
+Recent articles connect remote sensing, environmental change, and disaster-access research to their evidence and limitations.
+
+| Article | Published (UTC) | Read | Summary and thumbnail |
+| --- | --- | ---: | --- |
+| [When the Flood Came, Which Roads Still Led to Care?](https://shiverion.medium.com/when-the-flood-came-which-roads-still-led-to-care-5de93b2234fb) | 2026-10-11T19:08:39Z | 15 min | A South Kalimantan road-network model finds healthcare access disparities before the flood and a modest widening under event-specific disruption. A tested chokepoint explanation was withdrawn. [Thumbnail](https://shiverion.com/images/Articles/south-kalimantan-roads-to-care.webp) |
+| [The First Clues to Flash Drought May Appear in Plants Before the Soil Looks Severely Dry](https://shiverion.medium.com/the-first-clues-to-flash-drought-may-appear-in-plants-before-the-soil-looks-severely-dry-116dcff76170) | 2026-10-11T18:11:45Z | 9 min | NASA ARSET training workflow comparing satellite photosynthesis indicators with modeled root-zone moisture across three agricultural regions; not an operational forecast. [Thumbnail](https://shiverion.com/images/Articles/flash-drought-plant-signals.webp) |
+| [Fire and Forest Loss in Kalimantan: A Strong Signal, With an Important Caveat](https://shiverion.medium.com/fire-and-forest-loss-in-kalimantan-a-strong-signal-with-an-important-caveat-81118f34d57a) | 2026-10-11T17:46:03Z | 6 min | A +5.89 percentage-point adjusted association in 7,138 supported matched sets, bounded by a positive pre-fire difference and no causal attribution. [Thumbnail](https://shiverion.com/images/Articles/kalimantan-fire-forest-loss.webp) |
 ## How this index is curated
 
 Projects are grouped by capability and ordered by **demonstrated depth**. Within a level, the order is editorial: strength of verifiable evidence, relevance to my current practice, and recent activity all matter.
