@@ -312,6 +312,44 @@ Two AMD credentials covering AI on AMD and AI/HPC application development, optim
 | **ML & data** | PyTorch · XGBoost · scikit-learn · Pandas · GeoPandas · NetworkX · Sentinel-1 SAR · Bioinformatics · Perturb-seq · Polars · DuckDB · SQL · AMD ROCm · HIP | Registered QC pipelines, evidence triage, chronological backtests, proper scores, calibration, conformal uncertainty, survival analysis, geospatial/network accessibility modeling, interpretability, resource benchmarks |
 | **Delivery** | GCP · Cloud Run · Vercel · Docker · CI/CD | Public demos, container delivery, serverless products, automated checks |
 
+## System Design
+
+This repository is the public, machine-readable entry point to the portfolio. Its "system" is a content pipeline that keeps three views of the same facts consistent.
+
+### Requirements
+
+- **Readers**: recruiters skimming on GitHub, and AI tools (search assistants, coding agents) that fetch a single README.
+- **Accuracy**: every metric links to the artefact that produced it (repo, paper, or case study).
+- **Privacy**: private source repos are labelled as such and never linked as if public.
+- **Freshness**: updated whenever a project is added, removed, or materially changed.
+
+### How the Content Flows
+
+```text
+ Project repos / showcase repos  (detailed README, evidence, evals)
+          │  summary + metrics + links
+          ▼
+ portfolioData in Shiverion.github.io/src/App.jsx  ──build──► shiverion.com pages,
+          │                                                    sitemap, llms.txt, llms-full.txt
+          ├──► Career-Twin system prompt (same commit)         ──► Career-Twin agent answers
+          └──► this README (same change set)                   ──► GitHub readers and AI tools
+```
+
+### Design Choices
+
+| Decision | Benefit | Cost |
+| --- | --- | --- |
+| A single README rather than a site or JSON API | Zero hosting; renders on GitHub; trivially fetchable by AI tools | Manual sync with the portfolio |
+| Depth tiers ("How this index is curated") | Readers can tell research-grade work from coursework | Requires judgement on every update |
+| Measured-outcome table at the top | Claims are scannable and each one is sourced | Must be re-verified when a project changes |
+| SVG banner assets with a mobile variant | Consistent branding without external images | Two assets to maintain |
+
+### What to Revisit as It Grows
+
+- Generate this README from the same structured data as `portfolioData`, so the three views cannot drift.
+- Add a CI link checker so dead demo and repo links fail fast.
+- Publish a companion `projects.json` for tools that prefer structured data.
+
 ## Connect
 
 The fastest way to understand my work is to inspect the repository, read the benchmark, or try the product:
