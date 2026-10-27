@@ -325,14 +325,33 @@ This repository is the public, machine-readable entry point to the portfolio. It
 
 ### How the Content Flows
 
-```text
- Project repos / showcase repos  (detailed README, evidence, evals)
-          │  summary + metrics + links
-          ▼
- portfolioData in Shiverion.github.io/src/App.jsx  ──build──► shiverion.com pages,
-          │                                                    sitemap, llms.txt, llms-full.txt
-          ├──► Career-Twin system prompt (same commit)         ──► Career-Twin agent answers
-          └──► this README (same change set)                   ──► GitHub readers and AI tools
+```mermaid
+flowchart TD
+    subgraph sources["Evidence sources"]
+        repos["Project and showcase repos<br/>README, evidence, evals"]
+    end
+
+    subgraph content["Portfolio content"]
+        data["portfolioData<br/>Shiverion.github.io/src/App.jsx"]
+    end
+
+    subgraph views["Synchronized views"]
+        site["shiverion.com pages<br/>sitemap and llms files"]
+        prompt["Career-Twin system prompt<br/>same commit"]
+        readme["This README<br/>same change set"]
+    end
+
+    subgraph audiences["Published outcomes"]
+        answers["Career-Twin agent answers"]
+        readers["GitHub readers<br/>and AI tools"]
+    end
+
+    repos -->|"summary, metrics, links"| data
+    data -->|"build"| site
+    data --> prompt
+    data --> readme
+    prompt --> answers
+    readme --> readers
 ```
 
 ### Design Choices
