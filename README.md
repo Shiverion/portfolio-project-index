@@ -31,7 +31,7 @@
   </samp>
 </p>
 
-<p align="center"><sub>Index reviewed 2026-10-10</sub></p>
+<p align="center"><sub>Index reviewed 2026-11-10</sub></p>
 
 ---
 
@@ -54,6 +54,7 @@ My work ranges from Indonesian legal-document research and bioinformatics eviden
 | **Caught an eval bug hiding 45% of true FD002 error** | [AeroRUL](https://github.com/Shiverion/AeroRUL) |
 | **Retracted its own headline finding after a null-model test (p≈0.005)** | [HealthReach Indonesia](https://github.com/Shiverion/HealthReach-Indonesia) |
 | **+5.89pp fire-to-forest-loss association, explicitly non-causal** | [Indonesia Wildfire Analysis](https://fire-research.shiverion.com) |
+| **10/10 cases in the deployed demo** | [SouthCity AI Data Query Assistant case study](https://shiverion.com/projects/southcity-ai-data-query-assistant) |
 
 ## Selected work
 
@@ -206,6 +207,8 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **EPC Tender Screening MCP** | **4 · Extensive** | 2026-06-08 → 2026-06-08 | Ten domain tools, reviewable orchestration, deterministic evals, evidence traces, and SSRF boundaries | [Repo](https://github.com/Shiverion/epc-tender-screening-mcp-showcase) |
+| **Ledgerline: Governed Retail Banking Data Q&A** | **3 · Substantial** | — | Eight certified metrics over synthetic banking data; governed read-only queries show metric definitions, SQL, and trace; 173 automated tests | [Live](https://ledgerline.shiverion.com/) · [Case study](https://shiverion.com/projects/ledgerline) · source private |
+| **SouthCity AI Data Query Assistant** | **3 · Substantial** | 2026-10-22 → 2026-10-27 | Role-scoped Indonesian Text-to-SQL, AST and database read-only controls, 50/50 offline and 10/10 deployed-demo cases; two documented gaps | [Live](https://tanyadata.vercel.app/) · [Repo](https://github.com/Shiverion/techtest) · [Case study](https://shiverion.com/projects/southcity-ai-data-query-assistant) |
 | **Universal Commerce Protocol Agent** | **3 · Substantial** | 2026-01-15 → 2026-01-15 | Federated discovery, live inventory checks, and conversational checkout across three backends | [Repo](https://github.com/Shiverion/ucp-agent) |
 | **ProcureMind** | **2 · Focused** | 2026-01-20 → 2026-01-30 | Multi-stage RFQ parsing, product search, quote comparison, and response drafting | [Repo](https://github.com/Shiverion/ProcureMind) · [Live](https://procuremind.streamlit.app/) |
 | **Cybersecurity Analyzer Agent** | **2 · Focused** | 2025-11-26 → 2025-12-03 | Semgrep-backed Python analysis with an agent explanation layer and container deployment | [Repo](https://github.com/Shiverion/cybersecurity-agent) · [Case study](https://shiverion.com/projects/cybersecurity-analyzer) |
@@ -230,7 +233,9 @@ The levels describe what the available artifacts demonstrate. They do **not** gu
 | Project | Level | Public timeline | Evidence of depth | Access |
 | --- | --- | ---: | --- | --- |
 | **FocusForge** | **3 · Substantial** | 2025-12-22 → 2026-02-09 | Tauri desktop app combining distraction signals, Socratic review, achievements, analytics, and local state | [Repo](https://github.com/Shiverion/focusforge) · [Live](https://focusforge.shiverion.com/) · [Case study](https://shiverion.com/projects/focusforge) |
-| **Gymboard: From Muscle Map to Measurable Progress** | **2 · Focused** | — | Offline-first workout PWA connects anatomy, technique guidance, session logging, PRs, and progress analytics; local-first IndexedDB with optional Firebase sync | [Live](https://gym.shiverion.com/) · [Repo](https://github.com/Shiverion/gymboard) · [Case study](https://shiverion.com/projects/gymboard) |
+| **CourtIQ: On-Device Tennis Swing Coach** | **3 · Substantial** | — | On-device pose measurement, per-swing review, progress, and optional number-checked coaching; MVP advice covers forehands, hosted ball model unavailable | [Live](https://courtiq.shiverion.com/) · [Case study](https://shiverion.com/projects/courtiq) · source private |
+| **Gymboard: From Muscle Map to Measurable Progress** | **2 · Focused** | — | Offline-first workout PWA connects anatomy, technique guidance, session logging, PRs, and progress analytics; local-first IndexedDB with optional Firebase sync | [Live](https://gym.shiverion.com/) · [Public overview](https://github.com/Shiverion/gymboard) · [Case study](https://shiverion.com/projects/gymboard) · application source private |
+| **The Years We Lived: Interactive Memory Books** | **2 · Focused** | — | Tactile digital yearbooks with a full-screen reader, curated photo and film chapters, and a dedicated book studio | [Live](https://memories.shiverion.com/) · [Case study](https://shiverion.com/projects/the-years-we-lived) · source private |
 | **Baseline Pro** | **2 · Focused** | — | Localized coaching and booking product with schedule heatmaps, vouchers, content, badges, and admin tools | [Live](https://baseline-pro.vercel.app) · [Case study](https://shiverion.com/projects/baseline-pro) · source private |
 | **Badminton Court Reservation System** | **2 · Focused** | 2024-11-20 → 2024-11-20 | Complete Python workflow covering scheduling conflicts, operating-hour validation, payment states, roles, and feedback | [Repo](https://github.com/Shiverion/Badminton-Court-Reservation-System) |
 
